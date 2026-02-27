@@ -1,0 +1,61 @@
+{
+    "Navbar": {
+        "problems": "Muammolar",
+        "solutions": "Yechimlar",
+        "workflow": "Jarayon",
+        "contact": "Aloqa",
+        "demo": "Demo",
+        "login": "Kirish"
+    },
+    "Hero": {
+        "title": "Avtoservis va ehtiyot qismlarni boshqarish uchun aqlli platforma",
+        "description": "Avtoservis uchun to'liq raqamli avtomatlashtirish — diagnostikadan tortib to'lov va mijozni ushlab qolishgacha.",
+        "button1": "Demo versiyasiga o'tish",
+        "button2": "Konsultatsiya olish"
+    },
+    "ForWhom": {
+        "title": "Kimlar uchun?",
+        "description": "Biz har qanday miqyosdagi biznes uchun mos kelamiz",
+        "button": "Batafsil"
+    },
+    "Problems": {
+        "title": "Bozor muammolari",
+        "description": "Ko'pgina avtoservis va do'konlar duch keladigan muammolar.",
+        "button": "Batafsil"
+    },
+    "Solutions": {
+        "title": "Yechimlar",
+        "description": "Bizning platforma sizning avtoservisingizni to'liq avtomatlashtiradi",
+        "button": "Batafsil"
+    },
+    "Pricing": {
+        "title": "Narxlar",
+        "description": "Bizning platforma sizning avtoservisingizni to'liq avtomatlashtiradi",
+        "button": "Batafsil"
+    },
+    "Workflow": {
+        "title": "Jarayon",
+        "description": "Bizning platforma sizning avtoservisingizni to'liq avtomatlashtiradi",
+        "button": "Batafsil"
+    },
+    "Contact": {
+        "title": "Bog'lanish",
+        "description": "Bizning platforma sizning avtoservisingizni to'liq avtomatlashtiradi",
+        "button": "Batafsil"
+    },
+    "Footer": {
+        "title": "TechFlow",
+        "description": "Avtoservis va ehtiyot qismlarni boshqarish uchun aqlli platforma",
+        "button": "Batafsil",
+        "links": {
+            "home": "Bosh sahifa",
+            "forWhom": "Kimlar uchun",
+            "problems": "Muammolar",
+            "solutions": "Yechimlar",
+            "pricing": "Narxlar",
+            "contact": "Aloqa",
+            "demo": "Demo",
+            "login": "Kirish"
+        }
+    }   
+}

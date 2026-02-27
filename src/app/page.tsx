@@ -16,7 +16,7 @@ export default function HomePage() {
       <Solutions />
       <HowItWorks />
       <ForWhom />
-      <CTA />g   
+      <CTA />   
     </main>
   );
 }

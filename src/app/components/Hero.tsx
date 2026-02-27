@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="relative max-w-7xl mx-auto h-full px-6 flex flex-col">
 
 
-        <div className="relative z-10 pt-24 flex-100 max-w-[620px]">
+        <div className="relative sm:text-center md:text-left lg:text-left z-10 pt-24 flex-100 max-w-[620px]">
           <h1 className="text-[36px] leading-[46px] font-semibold text-[#0F172A]">
             Автосервис ва эҳтиёт қисмларни бошқариш учун{" "}
             <span className="text-[#2563EB]">ақлли платформа</span>
@@ -36,18 +36,15 @@ export default function Hero() {
         </div>
 
 
-        <div className="flex-1 flex items-end justify-end "
-        style={{
-          backdropFilter: "blur(70px)",
-          
-        }}>
+        <div className="flex-1 flex items-end justify-end backdrop-blur-[37px] bg-white/30 "
+        >
           <video
-            src="/videocar.mp4"
+            src="/video.mp4"
             autoPlay
             loop
             muted
             playsInline
-            className="w-[1080px] absolute object-contain"
+            className="w-[1080px] backdrop-blur-[37px] bg-white/30 absolute object-contain"
           />
         </div>
 
