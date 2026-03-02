@@ -13,49 +13,82 @@
         "button1": "Demo versiyasiga o'tish",
         "button2": "Konsultatsiya olish"
     },
-    "ForWhom": {
-        "title": "Kimlar uchun?",
-        "description": "Biz har qanday miqyosdagi biznes uchun mos kelamiz",
-        "button": "Batafsil"
-    },
     "Problems": {
         "title": "Bozor muammolari",
         "description": "Ko'pgina avtoservis va do'konlar duch keladigan muammolar.",
-        "button": "Batafsil"
+        "problem1": "Ta'mir buyurtmalar yo'qolishi",
+        "problem1_desc": "Bu kechikish va mijoz noroziligiga olib keladi.",
+        "problem2": "Ombor nazorati yo'qligi",
+        "problem2_desc": "Zapas qismlar hisobda yo'qoladi va xarajat oshib ketadi.",
+        "problem3": "Inson omili va xatolar",
+        "problem3_desc": "Qo'lda ishlash xatolar va sekinlikka olib keladi."
     },
     "Solutions": {
-        "title": "Yechimlar",
-        "description": "Bizning platforma sizning avtoservisingizni to'liq avtomatlashtiradi",
-        "button": "Batafsil"
-    },
-    "Pricing": {
-        "title": "Narxlar",
-        "description": "Bizning platforma sizning avtoservisingizni to'liq avtomatlashtiradi",
-        "button": "Batafsil"
+        "title": "TechFlow yechimlari",
+        "description": "Kopgina avtoserwis va do'konlar duch keladigan muammolar uchun biz yechim beramiz...",
+        "solution1": "Servisni boshqarish",
+        "solution1_desc": "Servis buyurtmalarini qabul qilish, ishlarni taqsimlash va bajarilishini nazorat qilish ushun yagona tizim",
+        "solution2": "CRM tizimi",
+        "solution2_desc": "Mijozlarimiz haqida barcha ma'lumotlar yagona markazda saqlanadi.",
+        "solution3": "POS",
+        "solution3_desc": "Naqd, karta va onlayn to'lovlar avtomatik tarzda hisobga olinadi.",
+        "solution4": "Analitika",
+        "solution4_desc": "Qarorlar aniq tahlilga asoslanadi.",
+        "solution5": "Onlayn integratsiya",
+        "solution5_desc": "CRM, WMS, POS va analitika modullari o'zaro avtomatik ma'lumot almashadi.",
+        "solution6": "Ombor (WMS)",
+        "solution6_desc": "Zapas qismlar va materiallar aniq hisobda yuritiladi.",
+        "solution7": "Savdo va hisob-kitob",
+        "solution7_desc": "Savdolar, to'lovlar va moliyaviy operatsiyalar avtomatik hisoblanadi."
     },
     "Workflow": {
-        "title": "Jarayon",
-        "description": "Bizning platforma sizning avtoservisingizni to'liq avtomatlashtiradi",
-        "button": "Batafsil"
+        "title": "Ish jarayoni qanday ishlaydi?",
+        "description": "TechFlow servisidagi barcha jarayonlarni 5 aniq qadamga bo'ladi va nazorat qiladi.",
+        "step1": "Mijoz qabuli",
+        "step1_desc": "Mijozni ro'yxatga olish, ariza ochish",
+        "step2": "Diagnostika",
+        "step2_desc": "Ehtiyot qismlarini belgilash",
+        "step3": "Ish jarayoni",
+        "step3_desc": "Ustalar ishini nazorat qilish",
+        "step4": "To'lov",
+        "step4_desc": "Chek va kafolat talonlarini berish",
+        "step5": "Tahlil",
+        "step5_desc": "Tahlil asosida foydani ko'rish"
     },
-    "Contact": {
-        "title": "Bog'lanish",
-        "description": "Bizning platforma sizning avtoservisingizni to'liq avtomatlashtiradi",
-        "button": "Batafsil"
+    "ForWhom": {
+        "title": "Kimlar uchun?",
+        "description": "Biz har qanday miqyosdagi biznes uchun mos kelamiz",
+        "card1": "Dillerlar",
+        "card2": "Avtoparklar",
+        "card3": "Avtoservislar"
+    },
+    "CTA": {
+        "title": "Biznesingiz uchun yagona raqamli boshqaruv tizimi",
+        "description": "Jarayonlarni bitta platformadan nazorat qiling. Bepul demo versiyasiga buyurtma bering va tizim imkoniyatlari sinab ko'ring.",
+        "button1": "Demo versiyasiga o'tish",
+        "button2": "Konsultatsiya olish",
+        "opportunities": "Samaradorlik",
+        "opportunities_desc": "Jarayonlar avtomatlashadi, vaqt va resurslar tejiladi.",
+        "security": "Xavfsizlik",
+        "security_desc": "Ma'lumotlar nazorat ostida va ishonchli himoyalangan.",
+        "scalability": "Mashtablash",
+        "scalability_desc": "Servisingiz biznesingiz bilan birga oson kengayadi."
+
     },
     "Footer": {
         "title": "TechFlow",
         "description": "Avtoservis va ehtiyot qismlarni boshqarish uchun aqlli platforma",
-        "button": "Batafsil",
         "links": {
-            "home": "Bosh sahifa",
-            "forWhom": "Kimlar uchun",
-            "problems": "Muammolar",
-            "solutions": "Yechimlar",
-            "pricing": "Narxlar",
-            "contact": "Aloqa",
-            "demo": "Demo",
-            "login": "Kirish"
+            "product": "Mahsulot",
+            "opportunities": "Imkoniyatlar",
+            "tariffs": "Tariflar",
+            "integrations": "Integratsiyalar",
+            "company": "Kompaniya",
+            "about": "Biz haqimizda",
+            "partners": "Hamkorlik",
+            "contact": "Bog'lanish",
+            "address": "55, Bog'iravon ko'chasi, Yunusobod tumani, Toshkent",
+            "copyright": "© 2026 TechFlow. Barcha huquqlar himoyalangan."
         }
     }   
 }

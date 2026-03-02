@@ -5,6 +5,7 @@ import Solutions from "./components/Solutions";
 import HowItWorks from "./components/HowItWorks";
 import ForWhom from "./components/ForWhom";
 import CTA from "./components/CTA";
+import Footer from "./components/Footer";
 
 
 export default function HomePage() {
@@ -17,6 +18,7 @@ export default function HomePage() {
       <HowItWorks />
       <ForWhom />
       <CTA />   
+      <Footer />
     </main>
   );
 }

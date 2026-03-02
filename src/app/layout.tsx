@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter_Tight } from "next/font/google";
 import "./globals.css";
+import Providers from "./components/Providers";
 
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
+const inter = Inter_Tight({
+  variable: "--font-inter-tight",
+  subsets: ["latin", "cyrillic"],
   display: "swap",
 });
 
@@ -20,8 +21,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="uz" suppressHydrationWarning data-qb-installed="true">
-      <body className={`${inter.variable} antialiased`}>{children}</body>
+    <html lang="uz">
+      <body className={`${inter.variable} antialiased`}>
+        <Providers>{children}</Providers>
+      </body>
     </html>
   );
 }
