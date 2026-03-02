@@ -8,7 +8,8 @@
         "login": "Kirish"
     },
     "Hero": {
-        "title": "Avtoservis va ehtiyot qismlarni boshqarish uchun aqlli platforma",
+        "title_start": "Avtoservis va ehtiyot qismlarni boshqarish uchun ",
+        "title_highlight": "aqlli platforma",
         "description": "Avtoservis uchun to'liq raqamli avtomatlashtirish — diagnostikadan tortib to'lov va mijozni ushlab qolishgacha.",
         "button1": "Demo versiyasiga o'tish",
         "button2": "Konsultatsiya olish"
@@ -73,7 +74,6 @@
         "security_desc": "Ma'lumotlar nazorat ostida va ishonchli himoyalangan.",
         "scalability": "Mashtablash",
         "scalability_desc": "Servisingiz biznesingiz bilan birga oson kengayadi."
-
     },
     "Footer": {
         "title": "TechFlow",
@@ -90,5 +90,5 @@
             "address": "55, Bog'iravon ko'chasi, Yunusobod tumani, Toshkent",
             "copyright": "© 2026 TechFlow. Barcha huquqlar himoyalangan."
         }
-    }   
+    }
 }

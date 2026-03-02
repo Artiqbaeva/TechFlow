@@ -3,7 +3,8 @@ import Link from "next/link";
 import { useLanguage } from "../context/LanguageContext";
 
 export default function Hero() {
-  const { t } = useLanguage();
+  const { t, locale } = useLanguage();
+  const isRu = locale === "ru";
 
   return (
     <section className="container  h-screen bg-[#F9FAFB]">
@@ -11,7 +12,17 @@ export default function Hero() {
 
         <div className="relative sm:text-center sm:text-wrap md:text-left lg:text-left z-10 pt-24 flex-100 max-w-[620px]">
           <h1 className="text-[36px] leading-[46px] font-semibold text-[#0F172A]">
-            {t("Hero", "title")}
+            {isRu ? (
+              <>
+                <span className="text-[#1463E1]">{t("Hero", "title_highlight")}</span>
+                {t("Hero", "title_start")}
+              </>
+            ) : (
+              <>
+                {t("Hero", "title_start")}
+                <span className="text-[#1463E1]">{t("Hero", "title_highlight")}</span>
+              </>
+            )}
           </h1>
 
           <p className="mt-6 text-[16px] text-[#475569]">
