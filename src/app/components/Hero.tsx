@@ -7,7 +7,7 @@ export default function Hero() {
   const isRu = locale === "ru";
 
   return (
-    <section className="container  h-screen bg-[#F9FAFB]">
+    <section className="container h-screen bg-[#F9FAFB]">
       <div className="relative max-w-7xl mx-auto h-full px-6 flex flex-col">
         <div className="relative sm:text-center sm:text-wrap md:text-left lg:text-left z-10 pt-24 flex-100 max-w-[620px]">
           <h1 className="text-[36px] leading-[46px] font-semibold text-[#0F172A]">
@@ -44,14 +44,14 @@ export default function Hero() {
             </Link>
           </div>
         </div>
-        <div className="flex-1 flex items-end justify-end ">
+        <div className="flex-1 flex items-end justify-end">
           <video
             src="/videocar.mp4"
             autoPlay
             loop
             muted
             playsInline
-            className="w-[1080px] absolute object-contain"
+            className="w-[1080px] absolute object-contain bg-[url('/border.svg')] bg-no-repeat `"
           />
         </div>
       </div>
