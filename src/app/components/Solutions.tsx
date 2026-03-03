@@ -78,7 +78,7 @@ export default function Solutions() {
                 <Image
                     src={solution5}
                     alt={t("Solutions", "solution6")}
-                    className="object-contain h-[180px] object-right-bottom group-hover:scale-105 transition-transform duration-500"
+                    className="object-contain w-[54%] group-hover:-translate-y-2 transition-transform duration-500"
                 />
             </div>
         </div>
