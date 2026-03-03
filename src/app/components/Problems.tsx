@@ -23,22 +23,22 @@ export default function Problems() {
                 <div className="grid md:grid-cols-3 gap-20  lg:text-center md:text-left sm:text-left">
                     <div className="space-y-3">
                         <img className="block md:hidden mx-auto" src="/problem1.svg" alt="" />
-                        <h3 className="text-lg font-bold text-gray-900">{t("Problems", "problem1")}</h3>
-                        <p className="text-sm lg:text-center md:text-left sm:text-left text-gray-500 leading-relaxed max-w-xs sm:mx-0">
+                        <h3 className="text-lg text-left font-bold text-gray-900">{t("Problems", "problem1")}</h3>
+                        <p className="text-sm text-left lg:text-center md:text-left sm:text-left text-gray-500 leading-relaxed max-w-xs ">
                             {t("Problems", "problem1_desc")}
                         </p>
                     </div>
                     <div className="space-y-3">
                         <img className="block md:hidden mx-auto" src="/problem2.svg" alt="" />
-                        <h3 className="text-lg font-bold text-gray-900">{t("Problems", "problem2")}</h3>
-                        <p className="text-sm text-gray-500 leading-relaxed max-w-xs sm:mx-0">
+                        <h3 className="text-lg text-left font-bold text-gray-900">{t("Problems", "problem2")}</h3>
+                        <p className="text-sm text-left text-gray-500 leading-relaxed max-w-xs sm:mx-0">
                             {t("Problems", "problem2_desc")}
                         </p>
                     </div>
                     <div className="space-y-3">
                         <img className="block md:hidden mx-auto" src="/problem3.svg" alt="" />
-                        <h3 className="text-lg font-bold text-gray-900">{t("Problems", "problem3")}</h3>
-                        <p className="text-sm text-gray-500 leading-relaxed max-w-xs sm:mx-0">
+                        <h3 className="text-lg text-left font-bold text-gray-900">{t("Problems", "problem3")}</h3>
+                        <p className="text-sm text-left text-gray-500 leading-relaxed max-w-xs sm:mx-0">
                             {t("Problems", "problem3_desc")}
                         </p>
                     </div>

@@ -51,7 +51,7 @@ export default function Hero() {
             loop
             muted
             playsInline
-            className="w-[1080px] max-w-full absolute object-contain"
+            className="w-[1080px] absolute object-contain"
           />
         </div>
       </div>
