@@ -104,7 +104,6 @@ const cardAnalitika = (
         className="bg-[#F9FAFB] rounded-[28px] overflow-hidden p-8 sm:p-10 flex flex-col relative group min-h-[220px]"
         style={{ backgroundImage: 'url(/bgofsolutioncard.svg)', backgroundSize: 'cover', backgroundPosition: 'center' }}
     >
-        {/* Matn qismi - z-index bilan rasm ustida turishini ta'minlaymiz */}
         <div className="relative z-20">
             <h3 className="text-[18px] md:text-[18px] lg:text-[22px] font-semibold text-[#030712] mb-2">
                 {t("Solutions", "solution4")}

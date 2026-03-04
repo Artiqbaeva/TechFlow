@@ -13,8 +13,8 @@ export default function Footer() {
     const { t, tNested } = useLanguage();
 
     return (
-        <footer className="bg-white max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="bg-[#F9FAFB] rounded-[2rem] p-6 lg:p-8 flex flex-col lg:flex-row gap-10">
+        <footer className="bg-white max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
+            <div className=" sm:p-3 md:p-1 lg:p-0  flex flex-col lg:flex-row gap-10">
 
                 <div className="bg-[#1C68E1] rounded-3xl p-8 text-white flex flex-col justify-between w-full lg:w-[350px] min-h-[300px]">
                     <div>
@@ -41,7 +41,7 @@ export default function Footer() {
                 </div>
 
 
-                <div className="flex-1 flex flex-col justify-between pt-6 lg:pt-8 lg:pl-10">
+                <div className="bg-[#F9FAFB] rounded-[2rem] p-6 flex-1 flex flex-col justify-between pt-6 lg:pt-8 lg:pl-10">
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-8">
 
                         <div>
