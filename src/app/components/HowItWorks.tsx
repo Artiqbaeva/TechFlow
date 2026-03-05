@@ -61,7 +61,7 @@ export default function HowItWorks() {
 
     return (
         <section id="workflow" className="py-24 bg-[#030712]">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center max-w-2xl mx-auto mb-20">
                     <h2 className="text-[32px] sm:text-[36px] font-semibold tracking-tight text-[#F9FAFB]">
                         {t("Workflow", "title")}
@@ -74,7 +74,7 @@ export default function HowItWorks() {
                 <div className="hidden lg:flex justify-between relative">
                     {steps.map((step) => (
                         <div key={step.id} className="relative flex-1 flex flex-col items-center">
-                            <div className="absolute top-5 left-0 w-full h-26 overflow-hidden pointer-events-none">
+                            <div className="absolute top-5 left-0 w-full h-34 overflow-hidden pointer-events-none">
                                 <svg fill="none" className={`w-full h-[120%] ${step.strokeColor} opacity-50`} stroke="currentColor" strokeWidth="2" strokeDasharray="6 6">
                                     <ellipse cx="50%" cy="100%" rx="50%" ry="100%" />
                                 </svg>

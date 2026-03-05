@@ -5,8 +5,8 @@ export default function Problems() {
     const { t } = useLanguage();
 
     return (
-        <section id="problems" className="pt-28 md:pt-40 lg:pt-16 bg-white overflow-hidden">
-            <div className="max-w-6xl mx-auto px-4 sm:px-10 lg:px-8">
+        <section id="problems" className="pt-10 md:pt-12 lg:pt-14 bg-white overflow-hidden">
+            <div className="max-w-[1440px] mx-auto px-4 sm:px-10 lg:px-8">
                 <div className="text-center max-w-2xl mx-auto mb-16">
                     <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 tracking-tight">
                         {t("Problems", "title")}

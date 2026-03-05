@@ -17,7 +17,7 @@ export default function Navbar() {
 
     return (
         <nav className="fixed top-0 left-0 right-0 z-50 bg-[#F9FAFB] ">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+            <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 relative">
                 <div className="flex items-center justify-between h-[72px]">
 
                     <Link href="/" className="flex items-center gap-2">
@@ -39,7 +39,7 @@ export default function Navbar() {
 
                     <div className="hidden lg:flex items-center gap-5">
                         <div className="relative">
-                           <Image src="/globe.svg" alt="globe" width={18} height={18} className="absolute left-2.5 top-1/2 -translate-y-1/2"/>
+                           <Image src={globe} alt="globe" width={18} height={18} className="absolute left-2.5 top-1/2 -translate-y-1/2"/>
                             <select
                                 id="desktop-language-select"
                                 value={locale}

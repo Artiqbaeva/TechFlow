@@ -37,7 +37,7 @@ export default function CTA() {
 
     return (
         <section id="contact" className="py-10 bg-white">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-9">
+            <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-9">
                 <div className="bg-[#F9FAFB] mb-4 rounded-[2rem] p-6 lg:p-14 grid lg:grid-cols-2 gap-12 lg:gap-2 items-center">
                     <div>
                         <h2 className="text-2xl sm:text-3xl lg:text-[40px] font-semibold text-[#030712] leading-[1.3] lg:leading-[1.2]">
@@ -63,7 +63,7 @@ export default function CTA() {
                         </div>
                     </div>
 
-                    <div className="flex flex-col gap-4 md:ml-auto lg:ml-auto w-full lg:max-w-[292px] sm:min-w-[282px]">
+                    <div className="flex flex-col gap-4 md:ml-auto lg:ml-auto w-full lg:max-w-[292px] sm:min-w-[300px]">
                         {features.map((feature, index) => (
                             <div
                                 key={index}
