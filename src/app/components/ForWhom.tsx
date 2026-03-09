@@ -45,7 +45,7 @@ export default function ForWhom() {
                             className="group cursor-pointer flex flex-col"
                         >
 
-                            <div className="w-full relative rounded-[20px] overflow-hidden aspect-[16/10] mb-5">
+                            <div className="w-full relative rounded-[16px] overflow-hidden aspect-[16/10] mb-5">
                                 <Image
                                     src={image}
                                     alt={t("ForWhom", titleKey)}

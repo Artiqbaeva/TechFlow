@@ -50,13 +50,13 @@ export default function CTA() {
                         <div className="mt-10 flex md:flex-row flex-col gap-5 sm:flex-col ">
                             <Link
                                 href="#"
-                                className="inline-flex items-center justify-center px-8 py-3.5 rounded-full text-[15px] text-nowrap font-medium text-white bg-[#1C68E1] hover:bg-blue-700 transition-colors"
+                                className="inline-flex items-center justify-center px-8 py-3.5 rounded-[32px] text-[15px] text-nowrap font-medium text-white bg-[#1C68E1] hover:bg-blue-700 transition-colors"
                             >
                                 {t("CTA", "button1")}
                             </Link>
                             <Link
                                 href="#"
-                                className="inline-flex items-center justify-center px-8 py-3.5 rounded-full text-[15px] text-nowrap font-medium text-gray-900 bg-white hover:bg-gray-50 transition-colors"
+                                className="inline-flex items-center justify-center px-8 py-3.5 rounded-[32px] text-[15px] text-nowrap font-medium text-gray-900 bg-white hover:bg-gray-50 transition-colors"
                             >
                                 {t("CTA", "button2")}
                             </Link>

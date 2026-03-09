@@ -1,5 +1,6 @@
 "use client";
 import { useLanguage } from "../context/LanguageContext";
+import Image from "next/image";
 
 export default function Problems() {
     const { t } = useLanguage();
@@ -16,29 +17,29 @@ export default function Problems() {
                     </p>
                 </div>
 
-                <div className="hidden md:block w-full max-w-5xl mx-auto h-[250px] sm:h-[300px] flex items-center justify-center mb-16">
-                    <img className="w-full h-full object-contain" src="/problemspart.svg" alt="" />
+                <div className="hidden md:flex w-full mx-auto items-center justify-center mb-10">
+                    <Image width={1440} height={300} className="w-full h-auto object-contain" src="/problemspart.svg" alt="Illustration showing common business problems: repair order delays, inventory loss, and human errors" />
                 </div>
 
-                <div className="grid md:grid-cols-3 gap-10 lg:text-center md:text-left sm:text-left">
-                    <div className="space-y-3">
-                        <img className="block md:hidden mx-auto" src="/problem1.svg" alt="" />
+                <div className="grid md:grid-cols-3 gap-6 lg:text-center md:text-left sm:text-left">
+                    <div className="space-y-[8px] mx-auto w-full max-w-[320px]">
+                        <Image width={150} height={100} className="block md:hidden mx-auto" src="/problem1.svg" alt="Lost repair orders icon" />
                         <h3 className="text-lg text-left font-semibold text-gray-900">{t("Problems", "problem1")}</h3>
-                        <p className="text-sm text-left text-left text-[#364153] leading-relaxed max-w-xs ">
+                        <p className="text-sm text-left text-[#364153] leading-relaxed">
                             {t("Problems", "problem1_desc")}
                         </p>
                     </div>
-                    <div className="space-y-3">
-                        <img className="block md:hidden mx-auto" src="/problem2.svg" alt="" />
+                    <div className="space-y-[8px] mx-auto w-full max-w-[320px]">
+                        <Image width={150} height={100} className="block md:hidden mx-auto" src="/problem2.svg" alt="Lack of inventory control icon" />
                         <h3 className="text-lg text-left font-semibold text-gray-900">{t("Problems", "problem2")}</h3>
-                        <p className="text-sm text-left text-[#364153] leading-relaxed max-w-xs sm:mx-0">
+                        <p className="text-sm text-left text-[#364153] leading-relaxed">
                             {t("Problems", "problem2_desc")}
                         </p>
                     </div>
-                    <div className="space-y-3">
-                        <img className="block md:hidden mx-auto" src="/problem3.svg" alt="" />
+                    <div className="space-y-[8px] mx-auto w-full max-w-[320px]">
+                        <Image width={150} height={100} className="block md:hidden mx-auto" src="/problem3.svg" alt="Human error and slowdowns icon" />
                         <h3 className="text-lg text-left font-semibold text-gray-900">{t("Problems", "problem3")}</h3>
-                        <p className="text-sm text-left text-[#364153] leading-relaxed max-w-xs sm:mx-0">
+                        <p className="text-sm text-left text-[#364153] leading-relaxed">
                             {t("Problems", "problem3_desc")}
                         </p>
                     </div>

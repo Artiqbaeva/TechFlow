@@ -36,7 +36,7 @@ export default function Solutions() {
 
     const cardCRM = (
         <div
-            className="bg-[#F9FAFB] rounded-[28px] overflow-hidden p-8 sm:p-10 relative flex flex-col group min-h-[310px] h-full"
+            className="bg-[#F9FAFB] rounded-[16px] overflow-hidden p-8 sm:p-10 relative flex flex-col group min-h-[310px] h-full"
             style={{ backgroundImage: 'url(/bgofsolutioncard.svg)', backgroundSize: 'cover', backgroundPosition: 'center' }}
         >
             <div className="relative z-20 mb-8">
@@ -58,7 +58,7 @@ export default function Solutions() {
 
     const cardPOS = (
         <div
-            className="bg-[#F9FAFB] rounded-[28px] overflow-hidden p-8 sm:p-10 flex flex-col h-full relative group min-h-[310px]"
+            className="bg-[#F9FAFB] rounded-[16px] overflow-hidden p-8 sm:p-10 flex flex-col h-full relative group min-h-[310px]"
             style={{ backgroundImage: 'url(/bgofsolutioncard.svg)', backgroundSize: 'cover', backgroundPosition: 'center' }}
         >
             <div className="relative z-20 mb-8">
@@ -80,7 +80,7 @@ export default function Solutions() {
 
     const cardOmbor = (
         <div
-            className="bg-[#F9FAFB] rounded-[28px] overflow-hidden p-8 sm:p-10 flex flex-col relative min-h-[200px] group"
+            className="bg-[#F9FAFB] rounded-[16px] overflow-hidden p-8 sm:p-10 flex flex-col relative min-h-[200px] group"
             style={{ backgroundImage: 'url(/bgofsolutioncard.svg)', backgroundSize: 'cover', backgroundPosition: 'center' }}
         >
             <div className="relative z-20">
@@ -101,7 +101,7 @@ export default function Solutions() {
     );
 const cardAnalitika = (
     <div
-        className="bg-[#F9FAFB] rounded-[28px] overflow-hidden p-8 sm:p-10 flex flex-col relative group min-h-[220px]"
+        className="bg-[#F9FAFB] rounded-[16px] overflow-hidden p-8 sm:p-10 flex flex-col relative group min-h-[220px]"
         style={{ backgroundImage: 'url(/bgofsolutioncard.svg)', backgroundSize: 'cover', backgroundPosition: 'center' }}
     >
         <div className="relative z-20">
@@ -129,7 +129,7 @@ const cardAnalitika = (
 
     const cardSavdo = (
         <div
-            className="bg-[#F9FAFB] rounded-[28px] overflow-hidden p-8 sm:p-10 flex flex-col relative h-full min-h-[310px]"
+            className="bg-[#F9FAFB] rounded-[16px] overflow-hidden p-8 sm:p-10 flex flex-col relative h-full min-h-[310px]"
             style={{ backgroundImage: 'url(/bgofsolutioncard.svg)', backgroundSize: 'cover', backgroundPosition: 'center' }}
         >
             <div className="relative z-20 mb-8">
@@ -151,7 +151,7 @@ const cardAnalitika = (
 
     const cardOnline = (
         <div
-            className="bg-[#F9FAFB] rounded-[28px] overflow-hidden p-8 sm:p-10 flex flex-col h-full relative group min-h-[530px]"
+            className="bg-[#F9FAFB] rounded-[16px] overflow-hidden p-8 sm:p-10 flex flex-col h-full relative group min-h-[530px]"
             style={{ backgroundImage: 'url(/bgofsolutioncard.svg)', backgroundSize: 'contain', backgroundPosition: 'center' }}
         >
             <div className="relative z-20 mb-8">
@@ -176,7 +176,7 @@ const cardAnalitika = (
             <div className="max-w-[1380px] mx-auto px-4 sm:px-6 lg:px-8">
 
                 <div className="text-center max-w-3xl mx-auto mb-16">
-                    <h2 className="text-3xl sm:text-[40px] font-semibold text-[#030712] tracking-tight leading-tight">
+                    <h2 className="text-[32px] sm:text-[40px] font-semibold text-[#030712] tracking-tight leading-tight">
                         {t("Solutions", "title")}
                     </h2>
                     <p className="mt-4 text-[#364153] font-regular text-lg">
@@ -184,7 +184,7 @@ const cardAnalitika = (
                     </p>
                 </div>
 
-                {/* Mobile and Tablet Layout */}
+             
                 <div className="flex flex-col md:grid md:grid-cols-2 gap-6 lg:hidden">
                     <div className="flex flex-col gap-6">
                         {cardService}
@@ -199,7 +199,7 @@ const cardAnalitika = (
                     </div>
                 </div>
 
-                {/* Desktop Layout */}
+               
                 <div className="hidden lg:flex flex-col gap-6">
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
                         <div className="lg:col-span-2">{cardService}</div>
