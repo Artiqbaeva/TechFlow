@@ -9,10 +9,10 @@ export default function Problems() {
         <section id="problems" className="pt-10 md:pt-12 lg:pt-14 bg-white overflow-hidden">
             <div className="max-w-[1440px] mx-auto px-4 sm:px-10 lg:px-8">
                 <div className="text-center max-w-2xl mx-auto mb-16">
-                    <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 tracking-tight">
+                    <h2 className="text-[32px] sm:text-[40px] font-semibold text-[#030712] tracking-tight">
                         {t("Problems", "title")}
                     </h2>
-                    <p className="mt-4 text-gray-500 font-medium">
+                    <p className="mt-4 text-[#64748B] font-medium">
                         {t("Problems", "description")}
                     </p>
                 </div>
@@ -24,22 +24,22 @@ export default function Problems() {
                 <div className="grid md:grid-cols-3 gap-6 lg:text-center md:text-left sm:text-left">
                     <div className="space-y-[8px] mx-auto w-full max-w-[320px]">
                         <Image width={150} height={100} className="block md:hidden mx-auto" src="/problem1.svg" alt="Lost repair orders icon" />
-                        <h3 className="text-lg text-left font-semibold text-gray-900">{t("Problems", "problem1")}</h3>
-                        <p className="text-sm text-left text-[#364153] leading-relaxed">
+                        <h3 className="text-lg text-left font-semibold text-[#030712]">{t("Problems", "problem1")}</h3>
+                        <p className="text-sm text-left text-[#64748B] leading-relaxed">
                             {t("Problems", "problem1_desc")}
                         </p>
                     </div>
                     <div className="space-y-[8px] mx-auto w-full max-w-[320px]">
                         <Image width={150} height={100} className="block md:hidden mx-auto" src="/problem2.svg" alt="Lack of inventory control icon" />
-                        <h3 className="text-lg text-left font-semibold text-gray-900">{t("Problems", "problem2")}</h3>
-                        <p className="text-sm text-left text-[#364153] leading-relaxed">
+                        <h3 className="text-lg text-left font-semibold text-[#030712]">{t("Problems", "problem2")}</h3>
+                        <p className="text-sm text-left text-[#64748B] leading-relaxed">
                             {t("Problems", "problem2_desc")}
                         </p>
                     </div>
                     <div className="space-y-[8px] mx-auto w-full max-w-[320px]">
                         <Image width={150} height={100} className="block md:hidden mx-auto" src="/problem3.svg" alt="Human error and slowdowns icon" />
-                        <h3 className="text-lg text-left font-semibold text-gray-900">{t("Problems", "problem3")}</h3>
-                        <p className="text-sm text-left text-[#364153] leading-relaxed">
+                        <h3 className="text-lg text-left font-semibold text-[#030712]">{t("Problems", "problem3")}</h3>
+                        <p className="text-sm text-left text-[#64748B] leading-relaxed">
                             {t("Problems", "problem3_desc")}
                         </p>
                     </div>
