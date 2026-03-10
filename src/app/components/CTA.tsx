@@ -67,7 +67,7 @@ export default function CTA() {
                         {features.map((feature, index) => (
                             <div
                                 key={index}
-                                className={`bg-white rounded-[12px] px-[12px] py-[8px] flex items-center justify-center gap-4 ${feature.offset}`}
+                                className={`bg-white rounded-[12px] text-left px-[12px] py-[8px] flex items-center justify-center gap-4 ${feature.offset}`}
                             >
                                 <div className="mt-1 shrink-0">
                                     {feature.icon}

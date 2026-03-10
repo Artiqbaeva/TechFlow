@@ -53,7 +53,7 @@ export default function Hero() {
             loop
             muted
             playsInline
-            className="w-full lg:absolute max-w-[1050px] object-contain"
+            className="w-full md:absolute max-w-[1050px] object-contain"
           />
           <div className="absolute bottom-0 right-0 ">
             <Image src={border} alt="border" />
