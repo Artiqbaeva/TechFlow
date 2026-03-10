@@ -36,21 +36,21 @@ export default function CTA() {
     ];
 
     return (
-        <section id="contact" className="py-10 bg-white">
-            <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-9">
-                <div className="bg-[#F9FAFB] mb-4 rounded-[2rem] p-6 lg:p-14 grid lg:grid-cols-2 gap-12 lg:gap-2 items-center">
+        <section id="contact" className="py-[32px] bg-white">
+            <div className="max-w-[335px] md:max-w-[648px] lg:max-w-[1090px] mx-auto">
+                <div className="bg-[#F9FAFB] mb-4 text-center md:text-left lg:text-left rounded-[16px] p-6 lg:p-14 grid lg:grid-cols-2 gap-12 lg:gap-2 items-center">
                     <div>
-                        <h2 className="text-2xl sm:text-3xl lg:text-[40px] font-semibold text-[#030712] leading-[1.3] lg:leading-[1.2]">
+                        <h2 className="text-[28px] sm:text-3xl lg:text-[32px] font-semibold text-[#030712] leading-[1.3] lg:leading-[1.2]">
                             {t("CTA", "title")}
                         </h2>
-                        <p className="mt-6 text-[#1E2939] text-[16px] sm:text-base leading-relaxed max-w-md">
+                        <p className="mt-4 text-[#1E2939] font-regular text-[14px] sm:text-base leading-relaxed ">
                             {t("CTA", "description")}
                         </p>
 
                         <div className="mt-10 flex md:flex-row flex-col gap-5 sm:flex-col ">
                             <Link
                                 href="#"
-                                className="inline-flex items-center justify-center px-8 py-3.5 rounded-[32px] text-[15px] text-nowrap font-medium text-white bg-[#1C68E1] hover:bg-blue-700 transition-colors"
+                                className="inline-flex items-center justify-center px-8 py-3.5 rounded-[32px] text-[16px] text-nowrap font-medium text-white bg-[#1C68E1]"
                             >
                                 {t("CTA", "button1")}
                             </Link>
@@ -67,7 +67,7 @@ export default function CTA() {
                         {features.map((feature, index) => (
                             <div
                                 key={index}
-                                className={`bg-white rounded-2xl p-5 flex items-center justify-center gap-4 ${feature.offset}`}
+                                className={`bg-white rounded-[12px] px-[12px] py-[8px] flex items-center justify-center gap-4 ${feature.offset}`}
                             >
                                 <div className="mt-1 shrink-0">
                                     {feature.icon}

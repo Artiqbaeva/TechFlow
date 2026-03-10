@@ -13,8 +13,8 @@ export default function Footer() {
     const { t, tNested } = useLanguage();
 
     return (
-        <footer className="bg-white max-w-[1440px] mx-auto px-3 py-[32px] sm:px-6 lg:px-8">
-            <div className=" sm:p-3 md:p-1 lg:p-0  flex flex-col lg:flex-row gap-10">
+        <footer className="bg-white max-w-[335px] md:max-w-[648px] lg:max-w-[1090px] mx-auto py-[32px]">
+            <div className="sm:p-3 md:p-1 lg:p-0  flex flex-col lg:flex-row gap-10">
 
                 <div className="bg-[#1C68E1] rounded-3xl p-8 text-white flex flex-col justify-between w-full lg:w-[350px] min-h-[300px]">
                     <div>
@@ -25,15 +25,15 @@ export default function Footer() {
                     </div>
                     <div className="flex gap-3 mt-12">
 
-                        <Link href="#" className="w-8 h-8 rounded text-[#1C68E1] bg-white flex items-center justify-center hover:bg-blue-50 transition-colors">
+                        <Link href="https://www.facebook.com/" className="w-8 h-8 rounded text-[#1C68E1] bg-white flex items-center justify-center hover:bg-blue-50 transition-colors">
                             <Image src={Facebook} alt="Facebook" width={24} height={24} />
                         </Link>
 
-                        <Link href="#" className="w-8 h-8 rounded text-[#1C68E1] bg-white flex items-center justify-center hover:bg-blue-50 transition-colors">
+                        <Link href="https://www.instagram.com/" className="w-8 h-8 rounded text-[#1C68E1] bg-white flex items-center justify-center hover:bg-blue-50 transition-colors">
                             <Image src={Insatgram} alt="Instagram" width={24} height={24} />
                         </Link>
 
-                        <Link href="#" className="w-8 h-8 rounded text-[#1C68E1] bg-white flex items-center justify-center hover:bg-blue-50 transition-colors">
+                        <Link href="https://www.linkedin.com/" className="w-8 h-8 rounded text-[#1C68E1] bg-white flex items-center justify-center hover:bg-blue-50 transition-colors">
                             <Image src={LinkedIn} alt="LinkedIn" width={24} height={24} />
                         </Link>
 

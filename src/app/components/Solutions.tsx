@@ -173,7 +173,7 @@ const cardAnalitika = (
 
     return (
         <section id="solutions" className="py-24 bg-white">
-            <div className="max-w-[1380px] mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-[335px] md:max-w-[648px] lg:max-w-[1090px] mx-auto">
 
                 <div className="text-center max-w-3xl mx-auto mb-16">
                     <h2 className="text-[32px] sm:text-[40px] font-semibold text-[#030712] tracking-tight leading-tight">

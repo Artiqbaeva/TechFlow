@@ -18,7 +18,7 @@ export default function Navbar() {
 
     return (
         <nav className="fixed top-0 left-0 right-0 z-50 bg-[#F9FAFB] ">
-            <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 relative">
+            <div className="max-w-[335px] md:max-w-[648px] lg:max-w-[1090px] mx-auto relative">
                 <div className="flex items-center justify-between h-[72px]">
 
                     <Link href="/" className="flex items-center gap-2">
@@ -45,7 +45,7 @@ export default function Navbar() {
                                 id="desktop-language-select"
                                 value={locale}
                                 onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setLocale(e.target.value as Locale)}
-                                className="appearance-none bg-[#F9FAFB] rounded-full pl-9 pr-8 py-2 text-sm font-medium text-gray-700 cursor-pointer focus:outline-none "
+                                className="appearance-none bg-[#F9FAFB] rounded-full pl-9 pr-8 py-2 text-sm font-medium text-[#030712] cursor-pointer focus:outline-none "
                             >
                                 {LOCALE_OPTIONS.map((opt) => (
                                     <option key={opt.code} value={opt.code}>
@@ -78,7 +78,7 @@ export default function Navbar() {
                     <div className="flex lg:hidden items-center gap-3 sm:gap-4">
                         <Link
                             href="#contact"
-                            className="hidden sm:inline-flex text-[14px] font-medium text-white bg-[#1463E1] hover:bg-blue-700 px-6 py-2.5 rounded-full transition-colors"
+                            className="hidden sm:inline-flex text-[14px] font-medium text-white bg-[#1463E1] px-[28px] py-[13px] rounded-full transition-colors"
                         >
                             {t("Navbar", "demo")}
                         </Link>
@@ -99,13 +99,13 @@ export default function Navbar() {
                 </div>
 
                 {mobileOpen && (
-                    <div className="lg:hidden absolute top-[76px] right-4 sm:right-6 w-[280px] bg-white rounded-lg shadow-[0_8px_30px_rgb(0,0,0,0.12)] border border-gray-100 overflow-hidden flex flex-col">
+                    <div className="lg:hidden absolute top-[76px] right-4 sm:right-6 w-[280px] bg-white rounded-[8px] shadow-[0_8px_30px_rgb(0,0,0,0.12)] border border-gray-100 overflow-hidden flex flex-col">
                         <div className="flex flex-col px-4 pt-2">
                             {navItems.map((item) => (
                                 <Link
                                     key={item.id}
                                     href={`#${item.id}`}
-                                    className="block py-4 text-center text-[15px] font-medium text-[#0F172A] hover:text-[#1463E1] border-b border-gray-100 last:border-0"
+                                    className="block py-4 text-center text-[14px] font-medium text-[#0F172A] hover:text-[#1463E1] border-b border-gray-200 "
                                     onClick={() => setMobileOpen(false)}
                                 >
                                     {t("Navbar", item.nameKey)}
