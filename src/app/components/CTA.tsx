@@ -43,7 +43,7 @@ export default function CTA() {
                         <h2 className="text-[28px] sm:text-3xl lg:text-[32px] font-semibold text-[#030712] leading-[1.3] lg:leading-[1.2]">
                             {t("CTA", "title")}
                         </h2>
-                        <p className="mt-4 text-[#1E2939] font-regular text-[14px] sm:text-base leading-relaxed ">
+                        <p className="mt-4 text-[#1E2939] font-regular text-[14px] sm:text-base leading-[22px] tracking-[-0.02em]">
                             {t("CTA", "description")}
                         </p>
 
@@ -73,10 +73,10 @@ export default function CTA() {
                                     {feature.icon}
                                 </div>
                                 <div className="flex flex-col">
-                                    <h3 className="text-[17px] font-semibold text-[#030712]">
+                                    <h3 className="text-[20px] font-semibold text-[#030712] leading-[24px] tracking-[-0.02em] ">
                                         {t("CTA", feature.titleKey)}
                                     </h3>
-                                    <p className="mt-1.5 text-[13px] text-[#4A5565] leading-relaxed font-medium">
+                                    <p className="mt-1.5 text-[12px] text-[#4A5565] text-[#4A5565] leading-[16px] font-medium">
                                         {t("CTA", feature.descKey)}
                                     </p>
                                 </div>

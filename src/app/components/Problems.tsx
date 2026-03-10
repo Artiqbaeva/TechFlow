@@ -8,11 +8,11 @@ export default function Problems() {
     return (
         <section id="problems" className="pt-16 md:pt-12 lg:pt-14 bg-white overflow-hidden">
             <div className="max-w-[335px] md:max-w-[648px] lg:max-w-[1090px] mx-auto">
-                <div className="text-center max-w-2xl mx-auto mb-8 md:mb-8 lg:mb-16 ">
+                <div className="text-center mb-8 md:mb-8 lg:mb-16 ">
                     <h2 className="text-[32px] sm:text-[40px] font-semibold text-[#030712]">
                         {t("Problems", "title")}
                     </h2>
-                    <p className="lg:mt-[16px] md:mt-[12px] mt-[8px] text-[#1E2939] font-regular">
+                    <p className="lg:mt-[14px] tracking-[-0.02em] lg:text-wrap leading-[22px] md:mt-[12px] mt-[8px] text-[#1E2939] font-regular">
                         {t("Problems", "description")}
                     </p>
                 </div>

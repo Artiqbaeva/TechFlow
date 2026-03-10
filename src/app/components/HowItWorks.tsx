@@ -66,7 +66,7 @@ export default function HowItWorks() {
                     <h2 className="text-[32px] sm:text-[36px] font-semibold tracking-tight text-[#F9FAFB]">
                         {t("Workflow", "title")}
                     </h2>
-                    <p className="mt-4 text-[#99A1AF] font-medium text-[16px] sm:text-base leading-relaxed">
+                    <p className="mt-4 text-[#99A1AF] font-regular text-[16px] sm:text-base leading-[22px]">
                         {t("Workflow", "description")}
                     </p>
                 </div>
@@ -86,7 +86,7 @@ export default function HowItWorks() {
                             </div>
 
 
-                            <div className="relative z-10 w-[26px] h-[26px] rounded-full bg-[#374151] flex items-center justify-center border-2 border-[#1E293B]">
+                            <div className="relative z-10 w-[26px] h-[26px] rounded-full bg-[#374151] flex items-center justify-center ">
                                 <span className="text-white text-[11px] font-semibold">{step.id}</span>
                             </div>
 
@@ -95,7 +95,7 @@ export default function HowItWorks() {
                                 <h3 className="text-[#F9FAFB] font-semibold text-[20px] tracking-wide mb-2">
                                     {t("Workflow", step.titleKey)}
                                 </h3>
-                                <p className="text-[#99A1AF] text-[16px] leading-relaxed max-w-[160px]">
+                                <p className="text-[#99A1AF] text-[16px] leading-[22px] tracking-[-0.02em] max-w-[160px]">
                                     {t("Workflow", step.descKey)}
                                 </p>
                             </div>
@@ -116,13 +116,13 @@ export default function HowItWorks() {
                             <div className={`relative z-10 w-14 h-14 rounded-2xl flex items-center justify-center mb-6`}>
                                 {step.icon}
                             </div>
-                            <div className="relative z-10 w-[26px] h-[26px] mb-4 rounded-full bg-[#374151] flex items-center justify-center border-2 border-[#1E293B]">
+                            <div className="relative z-10 w-[26px] h-[26px] mb-4 rounded-full bg-[#374151] flex items-center justify-center">
                                 <span className="text-white text-[11px] font-semibold">{step.id}</span>
                             </div>
                             <h3 className="relative z-10 text-[#F9FAFB] font-semibold text-[20px] tracking-wide mb-2 mt-2">
                                 {t("Workflow", step.titleKey)}
                             </h3>
-                            <p className="relative z-10 text-[#99A1AF] text-[16px] leading-relaxed max-w-[180px]">
+                            <p className="relative z-10 text-[#99A1AF] text-[16px] leading-[22px] tracking-[-0.02em] max-w-[180px]">
                                 {t("Workflow", step.descKey)}
                             </p>
                         </div>

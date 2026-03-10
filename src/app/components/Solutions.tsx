@@ -14,12 +14,12 @@ export default function Solutions() {
 
     const cardService = (
         <div
-            className="bg-[#F9FAFB] rounded-[28px] overflow-hidden p-8 sm:p-10 relative flex flex-col lg:flex-row group h-full min-h-[310px]"
+            className="bg-[#F9FAFB] rounded-[28px] overflow-hidden p-[32px] sm:p-[32px] relative flex flex-col lg:flex-row group h-full min-h-[310px]"
             style={{ backgroundImage: 'url(/bgofsolutioncard.svg)', backgroundSize: 'cover', backgroundPosition: 'center' }}
         >
             <div className="relative z-20 max-w-sm">
-                <h3 className="text-[22px] font-bold text-[#0F172A] mb-3">{t("Solutions", "solution1")}</h3>
-                <p className="text-[#64748B] text-[15px] leading-relaxed">
+                <h3 className="text-[20px] font-semibold text-[#030712] mb-[8px]">{t("Solutions", "solution1")}</h3>
+                <p className="text-[#364153] font-regular text-[16px] leading-[22px] tracking-[-0.02em]">
                     {t("Solutions", "solution1_desc")}
                 </p>
             </div>
@@ -36,12 +36,12 @@ export default function Solutions() {
 
     const cardCRM = (
         <div
-            className="bg-[#F9FAFB] rounded-[16px] overflow-hidden p-8 sm:p-10 relative flex flex-col group min-h-[310px] h-full"
+            className="bg-[#F9FAFB] rounded-[16px] overflow-hidden p-[32px] sm:p-[32px] relative flex flex-col group min-h-[310px] h-full"
             style={{ backgroundImage: 'url(/bgofsolutioncard.svg)', backgroundSize: 'cover', backgroundPosition: 'center' }}
         >
             <div className="relative z-20 mb-8">
-                <h3 className="text-[22px] font-semibold text-[#030712] mb-3">{t("Solutions", "solution2")}</h3>
-                <p className="text-[#364153] text-[14px] leading-relaxed">
+                <h3 className="text-[20px] font-semibold text-[#030712] mb-[8px]">{t("Solutions", "solution2")}</h3>
+                <p className="text-[#364153] font-regular text-[16px] leading-[22px] tracking-[-0.02em]">
                     {t("Solutions", "solution2_desc")}
                 </p>
             </div>
@@ -58,12 +58,12 @@ export default function Solutions() {
 
     const cardPOS = (
         <div
-            className="bg-[#F9FAFB] rounded-[16px] overflow-hidden p-8 sm:p-10 flex flex-col h-full relative group min-h-[310px]"
+            className="bg-[#F9FAFB] rounded-[16px] overflow-hidden p-[32px] sm:p-[32px] flex flex-col h-full relative group min-h-[310px]"
             style={{ backgroundImage: 'url(/bgofsolutioncard.svg)', backgroundSize: 'cover', backgroundPosition: 'center' }}
         >
             <div className="relative z-20 mb-8">
-                <h3 className="text-[22px] font-semibold text-[#030712] mb-3">{t("Solutions", "solution3")}</h3>
-                <p className="text-[#364153] text-[14px] leading-relaxed">
+                <h3 className="text-[20px] font-semibold text-[#030712] mb-[8px]">{t("Solutions", "solution3")}</h3>
+                <p className="text-[#364153] font-regular text-[16px] leading-[22px] tracking-[-0.02em]">
                     {t("Solutions", "solution3_desc")}
                 </p>
             </div>
@@ -80,12 +80,12 @@ export default function Solutions() {
 
     const cardOmbor = (
         <div
-            className="bg-[#F9FAFB] rounded-[16px] overflow-hidden p-8 sm:p-10 flex flex-col relative min-h-[200px] group"
+            className="bg-[#F9FAFB] rounded-[16px] overflow-hidden p-[32px] sm:p-[32px] flex flex-col relative min-h-[200px] group"
             style={{ backgroundImage: 'url(/bgofsolutioncard.svg)', backgroundSize: 'cover', backgroundPosition: 'center' }}
         >
             <div className="relative z-20">
-                <h3 className="text-[22px] font-semibold text-[#030712] mb-3">{t("Solutions", "solution6")}</h3>
-                <p className="text-[#364153] text-[14px] leading-relaxed">
+                <h3 className="text-[20px] font-semibold text-[#030712] mb-[8px]">{t("Solutions", "solution6")}</h3>
+                <p className="text-[#364153] font-regular text-[16px] leading-[22px] tracking-[-0.02em]">
                     {t("Solutions", "solution6_desc")}
                 </p>
             </div>
@@ -101,14 +101,14 @@ export default function Solutions() {
     );
 const cardAnalitika = (
     <div
-        className="bg-[#F9FAFB] rounded-[16px] overflow-hidden p-8 sm:p-10 flex flex-col relative group min-h-[220px]"
+        className="bg-[#F9FAFB] rounded-[16px] overflow-hidden p-[32px] sm:p-[32px] flex flex-col relative group min-h-[220px]"
         style={{ backgroundImage: 'url(/bgofsolutioncard.svg)', backgroundSize: 'cover', backgroundPosition: 'center' }}
     >
         <div className="relative z-20">
-            <h3 className="text-[18px] md:text-[18px] lg:text-[22px] font-semibold text-[#030712] mb-2">
+            <h3 className="text-[20px] font-semibold text-[#030712] mb-[8px]">
                 {t("Solutions", "solution4")}
             </h3>
-            <p className="text-[#364153] text-[14px] leading-relaxed max-w-[80%]">
+            <p className="text-[#364153] font-regular text-[16px] leading-[22px] tracking-[-0.02em] max-w-[80%]">
                 {t("Solutions", "solution4_desc")}
             </p>
         </div>
@@ -129,12 +129,12 @@ const cardAnalitika = (
 
     const cardSavdo = (
         <div
-            className="bg-[#F9FAFB] rounded-[16px] overflow-hidden p-8 sm:p-10 flex flex-col relative h-full min-h-[310px]"
+            className="bg-[#F9FAFB] rounded-[16px] overflow-hidden p-[32px] sm:p-[32px] flex flex-col relative h-full min-h-[310px]"
             style={{ backgroundImage: 'url(/bgofsolutioncard.svg)', backgroundSize: 'cover', backgroundPosition: 'center' }}
         >
             <div className="relative z-20 mb-8">
-                <h3 className="text-[22px] font-semibold text-[#030712] mb-3">{t("Solutions", "solution7")}</h3>
-                <p className="text-[#364153] text-[14px] leading-relaxed">
+                <h3 className="text-[20px] font-semibold text-[#030712] mb-[8px]">{t("Solutions", "solution7")}</h3>
+                <p className="text-[#364153] font-regular text-[16px] leading-[22px] tracking-[-0.02em]">
                     {t("Solutions", "solution7_desc")}
                 </p>
             </div>
@@ -151,16 +151,16 @@ const cardAnalitika = (
 
     const cardOnline = (
         <div
-            className="bg-[#F9FAFB] rounded-[16px] overflow-hidden p-8 sm:p-10 flex flex-col h-full relative group min-h-[530px]"
+            className="bg-[#F9FAFB] rounded-[16px] overflow-hidden p-[32px] sm:p-[32px] flex flex-col h-full relative group min-h-[530px]"
             style={{ backgroundImage: 'url(/bgofsolutioncard.svg)', backgroundSize: 'contain', backgroundPosition: 'center' }}
         >
             <div className="relative z-20 mb-8">
-                <h3 className="text-[22px] font-semibold text-[#030712] mb-3">{t("Solutions", "solution5")}</h3>
-                <p className="text-[#364153] text-[14px] leading-relaxed">
+                <h3 className="text-[20px] font-semibold text-[#030712] mb-[8px]">{t("Solutions", "solution5")}</h3>
+                <p className="text-[#364153] font-regular text-[16px] leading-[22px] tracking-[-0.02em]">
                     {t("Solutions", "solution5_desc")}
                 </p>
             </div>
-            <div className="mt-auto absolute bottom-4 left-0 p-6 right-0 flex justify-center items-end pointer-events-none -mx-4 z-10">
+            <div className="mt-auto absolute bottom-2 left-0 p-[32px] right-0 flex justify-center items-end pointer-events-none -mx-4 z-10">
                 <Image
                     src={solution7}
                     alt={t("Solutions", "solution5")}
@@ -174,25 +174,24 @@ const cardAnalitika = (
     return (
         <section id="solutions" className="py-24 bg-white">
             <div className="max-w-[335px] md:max-w-[648px] lg:max-w-[1090px] mx-auto">
-
                 <div className="text-center max-w-3xl mx-auto mb-16">
                     <h2 className="text-[32px] sm:text-[40px] font-semibold text-[#030712] tracking-tight leading-tight">
                         {t("Solutions", "title")}
                     </h2>
-                    <p className="mt-4 text-[#364153] font-regular text-lg">
+                    <p className="mt-4 text-[#1E2939] font-regular text-lg">
                         {t("Solutions", "description")}
                     </p>
                 </div>
 
              
-                <div className="flex flex-col md:grid md:grid-cols-2 gap-6 lg:hidden">
-                    <div className="flex flex-col gap-6">
+                <div className="flex flex-col md:grid md:grid-cols-2 gap-[10px] lg:hidden">
+                    <div className="flex flex-col gap-[10px]">
                         {cardService}
                         {cardPOS}
                         {cardOmbor}
                         {cardAnalitika}
                     </div>
-                    <div className="flex flex-col gap-6">
+                    <div className="flex flex-col gap-[10px]">
                         {cardCRM}
                         {cardOnline}
                         {cardSavdo}
@@ -200,17 +199,17 @@ const cardAnalitika = (
                 </div>
 
                
-                <div className="hidden lg:flex flex-col gap-6">
-                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                <div className="hidden lg:flex flex-col gap-[10px]">
+                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-[10px]">
                         <div className="lg:col-span-2">{cardService}</div>
                         <div className="lg:col-span-1">{cardCRM}</div>
                     </div>
-                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-                        <div className="flex flex-col gap-6">
+                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-[10px]">
+                        <div className="flex flex-col gap-[10px]">
                             {cardPOS}
                             {cardOmbor}
                         </div>
-                        <div className="flex flex-col gap-6">
+                        <div className="flex flex-col gap-[10px]">
                             {cardAnalitika}
                             {cardSavdo}
                         </div>
