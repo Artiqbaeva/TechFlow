@@ -99,33 +99,33 @@ export default function Solutions() {
             </div>
         </div>
     );
-const cardAnalitika = (
-    <div
-        className="bg-[#F9FAFB] rounded-[16px] overflow-hidden p-[32px] sm:p-[32px] flex flex-col relative group min-h-[220px]"
-        style={{ backgroundImage: 'url(/bgofsolutioncard.svg)', backgroundSize: 'cover', backgroundPosition: 'center' }}
-    >
-        <div className="relative z-20">
-            <h3 className="text-[20px] font-semibold text-[#030712] mb-[8px]">
-                {t("Solutions", "solution4")}
-            </h3>
-            <p className="text-[#364153] lg:text-nowrap font-regular text-[16px] leading-[22px] tracking-[0.02em] max-w-[80%]">
-                {t("Solutions", "solution4_desc")}
-            </p>
-        </div>
+    const cardAnalitika = (
+        <div
+            className="bg-[#F9FAFB] rounded-[16px] overflow-hidden p-[32px] sm:p-[32px] flex flex-col relative group min-h-[220px]"
+            style={{ backgroundImage: 'url(/bgofsolutioncard.svg)', backgroundSize: 'cover', backgroundPosition: 'center' }}
+        >
+            <div className="relative z-20">
+                <h3 className="text-[20px] font-semibold text-[#030712] mb-[8px]">
+                    {t("Solutions", "solution4")}
+                </h3>
+                <p className="text-[#364153] lg:text-nowrap font-regular text-[16px] leading-[22px] tracking-[0.02em] max-w-[80%]">
+                    {t("Solutions", "solution4_desc")}
+                </p>
+            </div>
 
-      
-        <div className="absolute inset-x-0 bottom-0 lg:left-28 left-0 md:left-16 flex justify-center items-end h-[120px] pointer-events-none">
-            <Image
-                src={solution4}
-                alt={t("Solutions", "solution4")}
-                className="object-contain w-full h-full object-bottom" 
-                
-            />
-            
-            <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-[#F9FAFB] via-[#F9FAFB]/60 to-transparent z-10"></div>
+
+            <div className="absolute inset-x-0 bottom-0 lg:left-28 left-0 md:left-16 flex justify-center items-end h-[120px] pointer-events-none">
+                <Image
+                    src={solution4}
+                    alt={t("Solutions", "solution4")}
+                    className="object-contain w-full h-full object-bottom"
+
+                />
+
+                <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-[#F9FAFB] via-[#F9FAFB]/60 to-transparent z-10"></div>
+            </div>
         </div>
-    </div>
-);
+    );
 
     const cardSavdo = (
         <div
@@ -164,7 +164,7 @@ const cardAnalitika = (
                 <Image
                     src={solution7}
                     alt={t("Solutions", "solution5")}
-                    className="object-contain w-[100%] max-w-none"
+                    className="object-contain w-[150%] sm:w-[120%] md:w-[100%] max-w-none"
                 />
                 <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-[#F9FAFB] to-transparent pointer-events-none"></div>
             </div>
@@ -172,18 +172,18 @@ const cardAnalitika = (
     );
 
     return (
-        <section id="solutions" className="py-[32px] md:py-[50px] lg:py-[128px] bg-white">
+        <section id="solutions" className="py-[60px] md:py-[50px] lg:py-[128px] bg-white">
             <div className="max-w-[335px] md:max-w-[648px] lg:max-w-[1090px] mx-auto">
                 <div className="text-center max-w-3xl mx-auto mb-[36px]">
                     <h2 className="text-[32px] font-semibold text-[#030712] tracking-[0.02em] leading-[22px">
                         {t("Solutions", "title")}
                     </h2>
-                    <p className="mt-[16px] w-[400px] mx-auto text-[#1E2939] leading-[22px] tracking-[0.02em] font-regular text-[16px]">
+                    <p className="mt-[8px] md:mt-[16px] max-w-[400px] mx-auto text-[#1E2939] leading-[22px] tracking-[0.02em] font-regular text-[16px]">
                         {t("Solutions", "description")}
                     </p>
                 </div>
 
-             
+
                 <div className="flex flex-col md:grid md:grid-cols-2 gap-[20px] lg:hidden">
                     <div className="flex flex-col gap-[20px]">
                         {cardService}
@@ -198,7 +198,7 @@ const cardAnalitika = (
                     </div>
                 </div>
 
-               
+
                 <div className="hidden lg:flex flex-col gap-[20px]">
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-[20px]">
                         <div className="lg:col-span-2">{cardService}</div>

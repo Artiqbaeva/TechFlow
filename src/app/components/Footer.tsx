@@ -43,7 +43,7 @@ export default function Footer() {
 
 
                 <div className="bg-[#F9FAFB] rounded-[16px] flex-1 flex flex-col justify-between">
-                    <div className="p-[30px] flex flex-row gap-20">
+                    <div className="p-[30px] flex flex-row gap-25 md:gap-20  flex-wrap md:flex-nowrap">
 
                         <div>
                             <h3 className="text-[#030712] font-medium mb-[32px] leading-[22px] text-[16px] ">{tNested("Footer", "links", "product")}</h3>

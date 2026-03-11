@@ -65,7 +65,7 @@ export default function HowItWorks() {
                     <h2 className="text-[32px] sm:text-[36px] font-semibold tracking-tight text-[#F9FAFB]">
                         {t("Workflow", "title")}
                     </h2>
-                    <p className="mt-4 text-[#99A1AF] w-[440px] mx-auto font-regular text-[16px] sm:text-base tracking-[0.02em] leading-[22px]">
+                    <p className="mt-4 text-[#99A1AF] max-w-[440px] mx-auto font-regular text-[16px] sm:text-base tracking-[0.02em] leading-[22px]">
                         {t("Workflow", "description")}
                     </p>
                 </div>
@@ -110,7 +110,7 @@ export default function HowItWorks() {
                     {steps.map((step) => (
                         <div key={step.id} className="relative flex flex-col items-center text-center w-full">
                             
-                            {/* --- MOBILE SVG O'ZGARTIRILDI --- */}
+                            
                             <div className="absolute -top-1 left-1/2 -translate-x-1/2 w-[250px] h-[180px] overflow-hidden pointer-events-none sm:hidden">
                                 <svg fill="none" className={`w-full h-[100%] ${step.strokeColor}`} strokeWidth="2" strokeDasharray="6 6">
                                     <defs>
@@ -122,15 +122,15 @@ export default function HowItWorks() {
                                     <ellipse cx="50%" cy="100%" rx="50%" ry="85%" stroke={`url(#fadeGradMob-${step.id})`} />
                                 </svg>
                             </div>
-                            {/* ---------------------------------- */}
+                          
 
-                            <div className={`relative z-10 w-14 h-14 rounded-2xl flex items-center justify-center mb-6`}>
+                            <div className={`relative z-10 w-14 h-14 rounded-2xl flex items-center justify-center mb-2`}>
                                 {step.icon}
                             </div>
-                            <div className="relative z-10 w-[26px] h-[26px] mb-4 rounded-full bg-[#374151] flex items-center justify-center">
+                            <div className="relative z-10 w-[26px] h-[26px] rounded-full bg-[#374151] flex items-center justify-center">
                                 <span className="text-white text-[11px] font-semibold">{step.id}</span>
                             </div>
-                            <h3 className="relative z-10 text-[#F9FAFB] font-semibold text-[20px] tracking-wide mb-2 mt-2">
+                            <h3 className="relative z-10 text-[#F9FAFB] font-semibold text-[20px] tracking-wide mb-2 mt-1">
                                 {t("Workflow", step.titleKey)}
                             </h3>
                             <p className="relative z-10 text-[#99A1AF] text-[16px] leading-[22px] tracking-[-0.02em] max-w-[180px]">
