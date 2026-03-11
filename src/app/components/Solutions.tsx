@@ -19,7 +19,7 @@ export default function Solutions() {
         >
             <div className="relative z-20 max-w-sm">
                 <h3 className="text-[20px] font-semibold text-[#030712] mb-[8px]">{t("Solutions", "solution1")}</h3>
-                <p className="text-[#364153] font-regular text-[16px] leading-[22px] tracking-[-0.02em]">
+                <p className="text-[#364153] font-regular text-[16px] leading-[22px] tracking-[0.02em]">
                     {t("Solutions", "solution1_desc")}
                 </p>
             </div>
@@ -41,7 +41,7 @@ export default function Solutions() {
         >
             <div className="relative z-20 mb-8">
                 <h3 className="text-[20px] font-semibold text-[#030712] mb-[8px]">{t("Solutions", "solution2")}</h3>
-                <p className="text-[#364153] font-regular text-[16px] leading-[22px] tracking-[-0.02em]">
+                <p className="text-[#364153] font-regular text-[16px] leading-[22px] tracking-[0.02em]">
                     {t("Solutions", "solution2_desc")}
                 </p>
             </div>
@@ -63,7 +63,7 @@ export default function Solutions() {
         >
             <div className="relative z-20 mb-8">
                 <h3 className="text-[20px] font-semibold text-[#030712] mb-[8px]">{t("Solutions", "solution3")}</h3>
-                <p className="text-[#364153] font-regular text-[16px] leading-[22px] tracking-[-0.02em]">
+                <p className="text-[#364153] font-regular text-[16px] leading-[22px] tracking-[0.02em]">
                     {t("Solutions", "solution3_desc")}
                 </p>
             </div>
@@ -85,7 +85,7 @@ export default function Solutions() {
         >
             <div className="relative z-20">
                 <h3 className="text-[20px] font-semibold text-[#030712] mb-[8px]">{t("Solutions", "solution6")}</h3>
-                <p className="text-[#364153] font-regular text-[16px] leading-[22px] tracking-[-0.02em]">
+                <p className="text-[#364153] font-regular text-[16px] leading-[22px] tracking-[0.02em]">
                     {t("Solutions", "solution6_desc")}
                 </p>
             </div>
@@ -108,7 +108,7 @@ const cardAnalitika = (
             <h3 className="text-[20px] font-semibold text-[#030712] mb-[8px]">
                 {t("Solutions", "solution4")}
             </h3>
-            <p className="text-[#364153] font-regular text-[16px] leading-[22px] tracking-[-0.02em] max-w-[80%]">
+            <p className="text-[#364153] font-regular text-[16px] leading-[22px] tracking-[0.02em] max-w-[80%]">
                 {t("Solutions", "solution4_desc")}
             </p>
         </div>
@@ -134,7 +134,7 @@ const cardAnalitika = (
         >
             <div className="relative z-20 mb-8">
                 <h3 className="text-[20px] font-semibold text-[#030712] mb-[8px]">{t("Solutions", "solution7")}</h3>
-                <p className="text-[#364153] font-regular text-[16px] leading-[22px] tracking-[-0.02em]">
+                <p className="text-[#364153] font-regular text-[16px] leading-[22px] tracking-[0.02em]">
                     {t("Solutions", "solution7_desc")}
                 </p>
             </div>
@@ -156,7 +156,7 @@ const cardAnalitika = (
         >
             <div className="relative z-20 mb-8">
                 <h3 className="text-[20px] font-semibold text-[#030712] mb-[8px]">{t("Solutions", "solution5")}</h3>
-                <p className="text-[#364153] font-regular text-[16px] leading-[22px] tracking-[-0.02em]">
+                <p className="text-[#364153] font-regular text-[16px] leading-[22px] tracking-[0.02em]">
                     {t("Solutions", "solution5_desc")}
                 </p>
             </div>
@@ -175,10 +175,10 @@ const cardAnalitika = (
         <section id="solutions" className="py-[32px] md:py-[50px] lg:py-[128px] bg-white">
             <div className="max-w-[335px] md:max-w-[648px] lg:max-w-[1090px] mx-auto">
                 <div className="text-center max-w-3xl mx-auto mb-[36px]">
-                    <h2 className="text-[32px] font-semibold text-[#030712] tracking-tight leading-tight">
+                    <h2 className="text-[32px] font-semibold text-[#030712] tracking-[0.02em] leading-[22px">
                         {t("Solutions", "title")}
                     </h2>
-                    <p className="mt-[16px] w-[400px] mx-auto text-[#1E2939] leading-[22px] tracking-[-0.02em] font-regular text-[16px]">
+                    <p className="mt-[16px] w-[400px] mx-auto text-[#1E2939] leading-[22px] tracking-[0.02em] font-regular text-[16px]">
                         {t("Solutions", "description")}
                     </p>
                 </div>

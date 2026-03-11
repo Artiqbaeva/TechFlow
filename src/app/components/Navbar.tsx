@@ -45,7 +45,7 @@ export default function Navbar() {
                                 id="desktop-language-select"
                                 value={locale}
                                 onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setLocale(e.target.value as Locale)}
-                                className="appearance-none bg-[#F9FAFB] rounded-full pl-9 pr-8 py-2 text-sm font-medium text-[#030712] cursor-pointer focus:outline-none "
+                                className="appearance-none bg-[#F5F4F7] rounded-full pl-9 pr-8 py-2 text-sm font-medium text-[#030712] cursor-pointer focus:outline-none "
                             >
                                 {LOCALE_OPTIONS.map((opt) => (
                                     <option key={opt.code} value={opt.code}>

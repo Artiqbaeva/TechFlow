@@ -62,11 +62,11 @@ export default function HowItWorks() {
     return (
         <section id="workflow" className="py-[64px] md:py-[50px] lg:py-[128px] bg-[#030712]">
             <div className="max-w-[335px] md:max-w-[648px] lg:max-w-[1090px] mx-auto">
-                <div className="text-center max-w-2xl mx-auto mb-20">
+                <div className="text-center max-w-2xl mx-auto mb-8">
                     <h2 className="text-[32px] sm:text-[36px] font-semibold tracking-tight text-[#F9FAFB]">
                         {t("Workflow", "title")}
                     </h2>
-                    <p className="mt-4 text-[#99A1AF] font-regular text-[16px] sm:text-base leading-[22px]">
+                    <p className="mt-4 text-[#99A1AF] w-[440px] mx-auto font-regular text-[16px] sm:text-base tracking-[0.02em] leading-[22px]">
                         {t("Workflow", "description")}
                     </p>
                 </div>

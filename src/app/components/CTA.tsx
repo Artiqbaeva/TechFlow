@@ -38,16 +38,16 @@ export default function CTA() {
     return (
         <section id="contact" className="my-[60px] md:my-[80px] lg:mt-[64px] lg:mb-[80px] bg-white">
             <div className="max-w-[335px] md:max-w-[648px] lg:max-w-[1090px] mx-auto ">
-                <div className="bg-[#F9FAFB] mb-4 text-center md:text-left lg:text-left rounded-[16px] p-6 lg:p-14 grid lg:grid-cols-2 gap-12 lg:gap-2 items-center">
+                <div className="bg-[#F9FAFB] mb-4 text-center md:text-left lg:text-left rounded-[16px] p-6 lg:p-8 grid lg:grid-cols-2 gap-12 lg:gap-2 items-center">
                     <div>
-                        <h2 className="text-[32px] sm:text-3xl lg:text-[32px] font-semibold text-[#030712] leading-[1.3] lg:leading-[42px]">
+                        <h2 className="text-[32px] max-w-[480px] tracking-[0.02em] sm:text-3xl lg:text-[32px] font-semibold text-[#030712] leading-[1.3] lg:leading-[42px]">
                             {t("CTA", "title")}
                         </h2>
-                        <p className="mt-[16px] text-[#1E2939] font-regular text-[14px] sm:text-base leading-[22px] tracking-[-0.02em]">
+                        <p className="mt-[16px] text-[#1E2939] tracking-[0.02em] font-regular text-[14px] sm:text-base leading-[22px]">
                             {t("CTA", "description")}
                         </p>
 
-                        <div className="mt-10 flex md:flex-row flex-col gap-5 sm:flex-col ">
+                        <div className="mt-16 flex md:flex-row flex-col gap-5 sm:flex-col ">
                             <Link
                                 href="#"
                                 className="inline-flex items-center justify-center px-[28px] py-[13px] rounded-[32px] text-[16px] text-nowrap font-medium text-white bg-[#1C68E1]"

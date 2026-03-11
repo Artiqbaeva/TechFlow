@@ -15,12 +15,12 @@ export default function Footer() {
 
     return (
         <footer className="bg-white max-w-[335px] md:max-w-[648px] lg:max-w-[1090px] mx-auto py-[32px]">
-            <div className="sm:p-3 md:p-1 lg:p-0 flex flex-col lg:flex-row gap-10">
+            <div className="sm:p-3 md:p-1 lg:p-0 flex flex-col lg:flex-row gap-6">
 
                 <div className="bg-[#1C68E1] rounded-[16px] p-[32px] text-white flex flex-col justify-between w-full lg:w-[350px] min-h-[300px]">
                     <div>
                         <Image src={logofooter} alt="Logo Footer" width={170} height={32} />
-                        <p className="text-[#EEF8FF] pl-[6px] mt-[16px] font-medium text-[14px] leading-[22px] max-w-[260px]">
+                        <p className="text-[#EEF8FF] mt-[16px] font-medium text-[16px] leading-[22px]">
                             {t("Footer", "description")}
                         </p>
                     </div>
@@ -43,27 +43,27 @@ export default function Footer() {
 
 
                 <div className="bg-[#F9FAFB] rounded-[16px] flex-1 flex flex-col justify-between">
-                    <div className="grid grid-cols-1 p-[32px] sm:grid-cols-2 lg:grid-cols-3">
+                    <div className="p-[30px] flex flex-row gap-20">
 
                         <div>
-                            <h3 className="text-[#030712] font-medium mb-[32px] leading-[22px] tracking-tight">{tNested("Footer", "links", "product")}</h3>
+                            <h3 className="text-[#030712] font-medium mb-[32px] leading-[22px] text-[15px] tracking-[-0.02em]">{tNested("Footer", "links", "product")}</h3>
                             <ul className="space-y-4">
-                                <li><Link href="#" className="text-[14px] text-[#364153]">{tNested("Footer", "links", "opportunities")}</Link></li>
-                                <li><Link href="#" className="text-[14px] text-[#364153]">{tNested("Footer", "links", "tariffs")}</Link></li>
-                                <li><Link href="#" className="text-[14px] text-[#364153]">{tNested("Footer", "links", "integrations")}</Link></li>
+                                <li><Link href="#" className="text-[14px] text-nowrap text-[#364153]">{tNested("Footer", "links", "opportunities")}</Link></li>
+                                <li><Link href="#" className="text-[14px] text-nowrap text-[#364153]">{tNested("Footer", "links", "tariffs")}</Link></li>
+                                <li><Link href="#" className="text-[14px] text-nowrap text-[#364153]">{tNested("Footer", "links", "integrations")}</Link></li>
                             </ul>
                         </div>
 
                         <div>
-                            <h3 className="text-[#030712] font-medium mb-[32px] leading-[22px] tracking-tight">{tNested("Footer", "links", "company")}</h3>
+                            <h3 className="text-[#030712] font-medium mb-[32px] leading-[22px] text-[15px] tracking-[-0.02em]">{tNested("Footer", "links", "company")}</h3>
                             <ul className="space-y-4">
-                                <li><Link href="#" className="text-[14px] text-[#364153]">{tNested("Footer", "links", "about")}</Link></li>
-                                <li><Link href="#" className="text-[14px] text-[#364153]">{tNested("Footer", "links", "partners")}</Link></li>
+                                <li><Link href="#" className="text-[14px] text-nowrap text-[#364153]">{tNested("Footer", "links", "about")}</Link></li>
+                                <li><Link href="#" className="text-[14px] text-nowrap text-[#364153]">{tNested("Footer", "links", "partners")}</Link></li>
                             </ul>
                         </div>
 
                         <div>
-                            <h3 className="text-[#030712] font-medium mb-[32px] leading-[22px] tracking-tight">{tNested("Footer", "links", "contact")}</h3>
+                            <h3 className="text-[#030712] font-medium mb-[32px] leading-[22px] text-[15px] tracking-[-0.02em]">{tNested("Footer", "links", "contact")}</h3>
                             <ul className="space-y-5">
                                 <li className="flex items-center gap-3">
                                     <Image src={Phone} alt="Phone" width={24} height={24} />    
@@ -84,7 +84,7 @@ export default function Footer() {
                     </div>
 
 
-                    <div className="mt-16 lg:mt-auto pt-8">
+                    <div className="mt-16 lg:mt-auto pt-8 pl-[30px] pb-[30px]">
                         <p className="text-[13px] text-[#4A5565] ">
                             {tNested("Footer", "links", "copyright")}
                         </p>
