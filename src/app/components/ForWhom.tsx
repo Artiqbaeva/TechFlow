@@ -45,7 +45,7 @@ export default function ForWhom() {
                             className="group cursor-pointer flex flex-col"
                         >
 
-                            <div className="w-full relative rounded-[16px] overflow-hidden aspect-[16/10] mb-5">
+                            <div className="w-full relative rounded-[16px] overflow-hidden aspect-[16/10] mb-[20px]">
                                 <Image
                                     src={image}
                                     alt={t("ForWhom", titleKey)}
@@ -55,7 +55,7 @@ export default function ForWhom() {
                                 <div className="absolute inset-0 bg-gradient-to-t from-[#0B0F19]/60 to-transparent pointer-events-none opacity-50"></div>
                             </div>
 
-                            <h3 className="text-start text-[19px] font-semibold text-[#F9FAFB] leading-[24px] tracking-[-0.02em]">
+                            <h3 className="text-start text-[20px] font-semibold text-[#F9FAFB] leading-[24px] tracking-[0.02em]">
                                 {t("ForWhom", titleKey)}
                             </h3>
                         </div>

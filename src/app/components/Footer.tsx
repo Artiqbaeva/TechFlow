@@ -66,16 +66,16 @@ export default function Footer() {
                             <h3 className="text-[#030712] font-medium mb-[32px] leading-[22px] text-[15px] tracking-[-0.02em]">{tNested("Footer", "links", "contact")}</h3>
                             <ul className="space-y-5">
                                 <li className="flex items-center gap-3">
-                                    <Image src={Phone} alt="Phone" width={24} height={24} />    
-                                    <a href="tel:+998712000000" className="text-[15px] text-[#364153] ">+998 (71) 200-00-00</a>
+                                    <Image src={Phone} alt="Phone" width={20} height={20} />    
+                                    <a href="tel:+998712000000" className="text-[14px] font-regular leading-[16px] tracking-[0.02em] text-[#364153] ">+998 (71) 200-00-00</a>
                                 </li>
                                 <li className="flex items-center gap-3">
-                                    <Image src={letter} alt="Letter" width={24} height={24} />         
-                                    <a href="mailto:info@techflow.uz" className="text-[15px] text-[#364153] ">info@techflow.uz</a>
+                                    <Image src={letter} alt="Letter" width={20} height={20} />         
+                                    <a href="mailto:info@techflow.uz" className="text-[14px] font-regular leading-[16px] tracking-[0.02em] text-[#364153] ">info@techflow.uz</a>
                                 </li>
                                 <li className="flex items-start gap-3">
-                                    <Image src={location} alt="Location" width={24} height={24} />
-                                    <span className="text-[14px] text-[#364153] leading-snug pr-4">
+                                    <Image src={location} alt="Location" width={20} height={20} />
+                                    <span className="text-[14px] text-[#364153] font-regular leading-[16px] tracking-[0.02em] ">
                                         {tNested("Footer", "links", "address")}
                                     </span  >
                                 </li>
