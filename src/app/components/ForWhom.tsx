@@ -27,13 +27,13 @@ export default function ForWhom() {
     ];
 
     return (
-        <section id="for-whom" className="py-24 bg-[radial-gradient(circle_at_bottom,_#1463E1_-90%,_#030712_30%)] bg-[#030712] ">
+        <section id="for-whom" className="py-[64px] md:py-[50px] lg:pb-[128px] bg-[radial-gradient(circle_at_bottom,_#1463E1_-90%,_#030712_30%)] bg-[#030712] ">
             <div className="max-w-[335px] md:max-w-[648px] lg:max-w-[1090px] mx-auto">
-                <div className="text-center max-w-2xl mx-auto mb-14">
+                <div className="text-center max-w-2xl mx-auto mb-[36px]">
                     <h2 className="text-[32px] sm:text-[36px] font-semibold text-[#F9FAFB] tracking-tight">
                         {t("ForWhom", "title")}
                     </h2>
-                    <p className="mt-4 text-[#99A1AF] font-medium text-[16px] sm:text-base">
+                    <p className="mt-[16px] text-[#99A1AF] font-medium text-[16px] sm:text-base">
                         {t("ForWhom", "description")}
                     </p>
                 </div>

@@ -172,13 +172,13 @@ const cardAnalitika = (
     );
 
     return (
-        <section id="solutions" className="py-24 bg-white">
+        <section id="solutions" className="py-[32px] md:py-[50px] lg:py-[128px] bg-white">
             <div className="max-w-[335px] md:max-w-[648px] lg:max-w-[1090px] mx-auto">
-                <div className="text-center max-w-3xl mx-auto mb-16">
-                    <h2 className="text-[32px] sm:text-[40px] font-semibold text-[#030712] tracking-tight leading-tight">
+                <div className="text-center max-w-3xl mx-auto mb-[36px]">
+                    <h2 className="text-[32px] font-semibold text-[#030712] tracking-tight leading-tight">
                         {t("Solutions", "title")}
                     </h2>
-                    <p className="mt-4 text-[#1E2939] font-regular text-lg">
+                    <p className="mt-[16px] w-[400px] mx-auto text-[#1E2939] leading-[22px] tracking-[-0.02em] font-regular text-[16px]">
                         {t("Solutions", "description")}
                     </p>
                 </div>

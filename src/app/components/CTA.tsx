@@ -36,27 +36,27 @@ export default function CTA() {
     ];
 
     return (
-        <section id="contact" className="py-[32px] bg-white">
-            <div className="max-w-[335px] md:max-w-[648px] lg:max-w-[1090px] mx-auto">
+        <section id="contact" className="my-[60px] md:my-[80px] lg:mt-[64px] lg:mb-[80px] bg-white">
+            <div className="max-w-[335px] md:max-w-[648px] lg:max-w-[1090px] mx-auto ">
                 <div className="bg-[#F9FAFB] mb-4 text-center md:text-left lg:text-left rounded-[16px] p-6 lg:p-14 grid lg:grid-cols-2 gap-12 lg:gap-2 items-center">
                     <div>
-                        <h2 className="text-[28px] sm:text-3xl lg:text-[32px] font-semibold text-[#030712] leading-[1.3] lg:leading-[1.2]">
+                        <h2 className="text-[32px] sm:text-3xl lg:text-[32px] font-semibold text-[#030712] leading-[1.3] lg:leading-[42px]">
                             {t("CTA", "title")}
                         </h2>
-                        <p className="mt-4 text-[#1E2939] font-regular text-[14px] sm:text-base leading-[22px] tracking-[-0.02em]">
+                        <p className="mt-[16px] text-[#1E2939] font-regular text-[14px] sm:text-base leading-[22px] tracking-[-0.02em]">
                             {t("CTA", "description")}
                         </p>
 
                         <div className="mt-10 flex md:flex-row flex-col gap-5 sm:flex-col ">
                             <Link
                                 href="#"
-                                className="inline-flex items-center justify-center px-8 py-3.5 rounded-[32px] text-[16px] text-nowrap font-medium text-white bg-[#1C68E1]"
+                                className="inline-flex items-center justify-center px-[28px] py-[13px] rounded-[32px] text-[16px] text-nowrap font-medium text-white bg-[#1C68E1]"
                             >
                                 {t("CTA", "button1")}
                             </Link>
                             <Link
                                 href="#"
-                                className="inline-flex items-center justify-center px-8 py-3.5 rounded-[32px] text-[15px] text-nowrap font-medium text-gray-900 bg-white hover:bg-gray-50 transition-colors"
+                                className="inline-flex items-center justify-center px-[28px] py-[13px] rounded-[32px] text-[15px] text-nowrap font-medium text-[#1E2939] bg-white "
                             >
                                 {t("CTA", "button2")}
                             </Link>

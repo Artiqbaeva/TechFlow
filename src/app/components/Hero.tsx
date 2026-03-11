@@ -9,8 +9,8 @@ export default function Hero() {
 
   return (
     <section className="w-full sm:min-h-[600px] md:h-screen lg:h-screen bg-gradient-to-r from-[#F9FAFB] to-[#F5F4F7]">
-      <div className="mx-auto relative max-w-[1440px] h-full px-[10px] md:pl-[60px] md:pt-[14px] lg:pl-[175px] lg:pt-[20px] flex flex-col">
-        <div className="relative  sm:text-wrap  z-10 pt-24 md:max-w-[1320px] lg:max-w-[620px] max-w-[500px]">
+      <div className="mx-auto relative h-full px-[10px] md:pl-[60px] md:pt-[14px] lg:pl-[215px] lg:pt-[50px] flex flex-col">
+        <div className="relative  sm:text-wrap  z-10  md:max-w-[1320px] lg:max-w-[620px] max-w-[500px]">
           <h1 className="text-[24px] md:text-[20px] leading-[30px] md:leading:[18px] lg:leading-[46px] lg:text-[32px] mt-[30px] md:mt-[20px] lg:mt-[70px] text-center md:text-left lg:text-left font-semibold text-[#030712]">
             {isRu ? (
               <>
@@ -25,21 +25,21 @@ export default function Hero() {
             )}
           </h1>
 
-          <p className="mt-6 text-[16px] md:text-[14px] lg:text-[16px] text-center md:text-left lg:text-left text-[#1E2939]">
+          <p className="mt-6 w-[450px] text-[16px] md:text-[14px] lg:text-[16px] text-center md:text-left lg:text-left text-[#1E2939]">
             {t("Hero", "description")}
           </p>  
 
-          <div className="mt-10 flex md:flex-row flex-col gap-5 sm:flex-col ">
+          <div className="mt-10 flex md:flex-row flex-col gap-[10px] sm:flex-col ">
             <Link
               href="#"
-              className="bg-[#1463E1] text-center text-white px-6 py-3 rounded-[32px] font-medium shadow-lg transition"
+              className="bg-[#1463E1] text-center text-white px-[28px] py-[13px] rounded-[32px] font-medium leading-[20px]"
             >
               {t("Hero", "button1")}
             </Link>
 
             <Link
               href="#"
-              className="bg-white text-[#030712] text-center px-6 py-3 rounded-[32px] font-medium"
+              className="bg-white text-[#030712] text-center px-[28px] py-[13px] rounded-[32px] font-medium leadingg-[20px]"
             >
               {t("Hero", "button2")}
             </Link>

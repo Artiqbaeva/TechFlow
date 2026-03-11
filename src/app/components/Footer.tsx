@@ -7,6 +7,7 @@ import Facebook from "../../../public/Facebook.svg";
 import Phone from "../../../public/phonecalling.svg";
 import letter from "../../../public/Letter.svg";
 import location from "../../../public/location.svg";
+import logofooter from "../../../public/logofooter.svg";
 import { useLanguage } from "../context/LanguageContext";
 
 export default function Footer() {
@@ -14,26 +15,26 @@ export default function Footer() {
 
     return (
         <footer className="bg-white max-w-[335px] md:max-w-[648px] lg:max-w-[1090px] mx-auto py-[32px]">
-            <div className="sm:p-3 md:p-1 lg:p-0  flex flex-col lg:flex-row gap-10">
+            <div className="sm:p-3 md:p-1 lg:p-0 flex flex-col lg:flex-row gap-10">
 
-                <div className="bg-[#1C68E1] rounded-3xl p-8 text-white flex flex-col justify-between w-full lg:w-[350px] min-h-[300px]">
+                <div className="bg-[#1C68E1] rounded-[16px] p-[32px] text-white flex flex-col justify-between w-full lg:w-[350px] min-h-[300px]">
                     <div>
-                        <h2 className="text-3xl text-[#EEF8FF] font-medium mb-4">{t("Footer", "title")}</h2>
-                        <p className="text-[#EEF8FF] text-[14px] leading-[22px] max-w-[260px]">
+                        <Image src={logofooter} alt="Logo Footer" width={170} height={32} />
+                        <p className="text-[#EEF8FF] pl-[6px] mt-[16px] font-medium text-[14px] leading-[22px] max-w-[260px]">
                             {t("Footer", "description")}
                         </p>
                     </div>
                     <div className="flex gap-3 mt-12">
 
-                        <Link href="https://www.facebook.com/" className="w-8 h-8 rounded text-[#1C68E1] bg-white flex items-center justify-center hover:bg-blue-50 transition-colors">
+                        <Link href="https://www.facebook.com/">
                             <Image src={Facebook} alt="Facebook" width={24} height={24} />
                         </Link>
 
-                        <Link href="https://www.instagram.com/" className="w-8 h-8 rounded text-[#1C68E1] bg-white flex items-center justify-center hover:bg-blue-50 transition-colors">
+                        <Link href="https://www.instagram.com/">
                             <Image src={Insatgram} alt="Instagram" width={24} height={24} />
                         </Link>
 
-                        <Link href="https://www.linkedin.com/" className="w-8 h-8 rounded text-[#1C68E1] bg-white flex items-center justify-center hover:bg-blue-50 transition-colors">
+                        <Link href="https://www.linkedin.com/">
                             <Image src={LinkedIn} alt="LinkedIn" width={24} height={24} />
                         </Link>
 
@@ -41,8 +42,8 @@ export default function Footer() {
                 </div>
 
 
-                <div className="bg-[#F9FAFB] rounded-[2rem] p-4 lg:p-6 flex-1 flex flex-col justify-between pt-6 lg:pt-8">
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+                <div className="bg-[#F9FAFB] rounded-[16px] flex-1 flex flex-col justify-between">
+                    <div className="grid grid-cols-1 p-[32px] sm:grid-cols-2 lg:grid-cols-3">
 
                         <div>
                             <h3 className="text-[#030712] font-medium mb-[32px] leading-[22px] tracking-tight">{tNested("Footer", "links", "product")}</h3>

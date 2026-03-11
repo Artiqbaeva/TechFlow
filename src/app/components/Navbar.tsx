@@ -17,12 +17,12 @@ export default function Navbar() {
     ];
 
     return (
-        <nav className="fixed top-0 left-0 right-0 z-50 bg-[#F9FAFB] ">
+        <nav className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-[#F9FAFB] to-[#F5F4F7]">
             <div className="max-w-[335px] md:max-w-[648px] lg:max-w-[1090px] mx-auto relative">
                 <div className="flex items-center justify-between h-[72px]">
 
                     <Link href="/" className="flex items-center gap-2">
-                        <Image src={logo} alt="logo" width={150} height={50}/>
+                        <Image src={logo} alt="logo" width={250} height={100}/>
                     </Link>
 
 
