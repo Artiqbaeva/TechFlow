@@ -26,12 +26,12 @@ export default function Navbar() {
                     </Link>
 
 
-                    <div className="hidden lg:flex items-center gap-8 bg-white border border-[#D1D5DC] px-[34px] py-[10px] rounded-full absolute left-1/2 -translate-x-1/2">
+                    <div className="hidden lg:flex items-center gap-8 bg-white px-[34px] py-[10px] rounded-full absolute left-1/2 -translate-x-1/2 border border-[#D1D5DC] rounded-[32px] p-4">
                         {navItems.map((item) => (
                             <Link
                                 key={item.id}
                                 href={`#${item.id}`}
-                                className="text-[14px] text-[#030712] font-medium"
+                                className="text-[14px] hover:text-[#364153] text-[#030712] font-medium"
                             >
                                 {t("Navbar", item.nameKey)}
                             </Link>
