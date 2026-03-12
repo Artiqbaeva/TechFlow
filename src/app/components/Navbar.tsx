@@ -99,7 +99,7 @@ export default function Navbar() {
                 </div>
 
                 {mobileOpen && (
-                    <div className="lg:hidden absolute top-[76px] right-4 sm:right-6 w-[280px] bg-white rounded-[8px] shadow-[0_8px_30px_rgb(0,0,0,0.12)] border border-gray-100 overflow-hidden flex flex-col">
+                    <div className="lg:hidden absolute top-[76px] right-4 sm:right-6 w-[253px] bg-white h-[414px] rounded-[8px] shadow-[0_8px_30px_rgb(0,0,0,0.12)] border border-gray-100 overflow-hidden flex flex-col">
                         <div className="flex flex-col px-4 pt-2">
                             {navItems.map((item) => (
                                 <Link
@@ -129,6 +129,14 @@ export default function Navbar() {
                                     {opt.shortLabel}
                                 </button>
                             ))}
+                        </div>
+                        <div className="flex justify-center items-center">
+                            <Link
+                                href="#contact"
+                                className="text-sm font-medium text-white text-center bg-[#1463E1] hover:bg-blue-700 px-[28px] py-[13px] w-[205px] h-[42px] rounded-full transition-colors"
+                            >
+                            {t("Navbar", "demo")}
+                        </Link>
                         </div>
                     </div>
                 )}
