@@ -40,7 +40,7 @@ export default function Navbar() {
 
                     <div className="hidden lg:flex items-center gap-5">
                         <div className="relative">
-                           <Image src={globe} alt="globe" width={20} height={20} className="absolute left-2.5 top-1/2 -translate-y-1/2"/>
+                            <Image src={globe} alt="globe" width={20} height={20} className="absolute left-2.5 top-1/2 -translate-y-1/2" />
                             <select
                                 id="desktop-language-select"
                                 value={locale}
@@ -75,7 +75,7 @@ export default function Navbar() {
                         </Link>
                     </div>
 
-                    <div className="flex lg:hidden items-center gap-3 sm:gap-4">
+                    <div className="flex lg:hidden items-center gap-3 sm:gap-4 ">
                         <Link
                             href="#contact"
                             className="hidden sm:inline-flex text-[14px] font-medium text-white bg-[#1463E1] px-[28px] py-[13px] rounded-full transition-colors"
@@ -84,7 +84,7 @@ export default function Navbar() {
                         </Link>
 
                         <button
-                            className="p-2 rounded-md text-gray-800"
+                            className="p-2 rounded-md text-gray-800 "
                             onClick={() => setMobileOpen(!mobileOpen)}
                         >
                             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -99,44 +99,48 @@ export default function Navbar() {
                 </div>
 
                 {mobileOpen && (
-                    <div className="lg:hidden absolute top-[76px] right-4 sm:right-6 w-[253px] bg-white h-[414px] rounded-[8px] shadow-[0_8px_30px_rgb(0,0,0,0.12)] border border-gray-100 overflow-hidden flex flex-col">
-                        <div className="flex flex-col px-4 pt-2">
+                    <div className="lg:hidden absolute top-[76px] right-4 sm:right-6 w-[253px] bg-white h-[414px] rounded-[8px] shadow-[0_8px_30px_rgb(0,0,0,0.12)] overflow-hidden flex flex-col">
+
+                        <div className="flex flex-col px-4">
                             {navItems.map((item) => (
                                 <Link
                                     key={item.id}
                                     href={`#${item.id}`}
-                                    className="block py-4 text-center text-[14px] font-medium text-[#0F172A] hover:text-[#1463E1] border-b border-gray-200 "
+                                    className="block py-4 text-center text-[14px] font-medium text-[#0F172A] hover:text-[#1463E1] border-b border-gray-200"
                                     onClick={() => setMobileOpen(false)}
                                 >
                                     {t("Navbar", item.nameKey)}
                                 </Link>
                             ))}
+
+
+                            <div className="flex justify-between items-center py-[24px] border-b border-gray-200">
+                                {LOCALE_OPTIONS.map((opt) => (
+                                    <button
+                                        key={opt.code}
+                                        onClick={() => {
+                                            setLocale(opt.code);
+                                            setMobileOpen(false);
+                                        }}
+                                        className={`flex-1 mx-1 p-[13px] rounded-md text-[14px] font-medium transition ${locale === opt.code
+                                                ? "bg-[#1463E1] text-white"
+                                                : "bg-transparent text-[#0F172A] hover:bg-gray-200"
+                                            }`}
+                                    >
+                                        {opt.shortLabel}
+                                    </button>
+                                ))}
+                            </div>
                         </div>
 
-                        <div className="flex justify-between items-center px-4 py-5 mt-2">
-                            {LOCALE_OPTIONS.map((opt) => (
-                                <button
-                                    key={opt.code}
-                                    onClick={() => {
-                                        setLocale(opt.code);
-                                        setMobileOpen(false);
-                                    }}
-                                    className={`flex-1 mx-1 py-2 rounded-md text-[14px] font-medium transition ${locale === opt.code
-                                        ? "bg-[#1463E1] text-white"
-                                        : "bg-transparent text-[#0F172A] hover:bg-gray-50"
-                                        }`}
-                                >
-                                    {opt.shortLabel}
-                                </button>
-                            ))}
-                        </div>
-                        <div className="flex justify-center items-center">
+                        <div className="flex justify-center py-[24px] items-center">
                             <Link
                                 href="#contact"
-                                className="text-sm font-medium text-white text-center bg-[#1463E1] hover:bg-blue-700 px-[28px] py-[13px] w-[205px] h-[42px] rounded-full transition-colors"
+                                className="text-sm font-medium text-white flex items-center justify-center bg-[#1463E1] hover:bg-blue-700 w-[205px] h-[42px] rounded-full transition-colors"
+                                onClick={() => setMobileOpen(false)}
                             >
-                            {t("Navbar", "demo")}
-                        </Link>
+                                {t("Navbar", "demo")}
+                            </Link>
                         </div>
                     </div>
                 )}
