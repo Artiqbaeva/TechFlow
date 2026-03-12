@@ -73,7 +73,7 @@ export default function HowItWorks() {
                 <div className="hidden lg:flex justify-between relative">
                     {steps.map((step) => (
                         <div key={step.id} className="relative flex-1 flex flex-col items-center">
-                            
+
                             <div className="absolute top-5 left-0 w-full h-30 overflow-hidden pointer-events-none">
                                 <svg fill="none" className={`w-full h-[85%] ${step.strokeColor}`} strokeWidth="1.3" strokeDasharray="6 6">
                                     <defs>
@@ -109,8 +109,8 @@ export default function HowItWorks() {
                 <div className="lg:hidden flex flex-col sm:grid sm:grid-cols-2 gap-16 sm:gap-10 relative items-center">
                     {steps.map((step) => (
                         <div key={step.id} className="relative flex flex-col items-center text-center w-full">
-                            
-                            
+
+
                             <div className="absolute -top-1 left-1/2 -translate-x-1/2 w-[250px] h-[180px] overflow-hidden pointer-events-none sm:hidden">
                                 <svg fill="none" className={`w-full h-[100%] ${step.strokeColor}`} strokeWidth="2" strokeDasharray="6 6">
                                     <defs>
@@ -122,7 +122,7 @@ export default function HowItWorks() {
                                     <ellipse cx="50%" cy="100%" rx="50%" ry="85%" stroke={`url(#fadeGradMob-${step.id})`} />
                                 </svg>
                             </div>
-                          
+
 
                             <div className={`relative z-10 w-14 h-14 rounded-2xl flex items-center justify-center mb-2`}>
                                 {step.icon}

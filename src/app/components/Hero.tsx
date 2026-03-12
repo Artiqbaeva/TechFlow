@@ -5,6 +5,7 @@ import { useState } from "react";
 import Image from "next/image";
 import border from "../../../public/border.svg";
 import DemoModal from "./DemoModal";
+
 export default function Hero() {
   const { t, locale } = useLanguage();
   const [modalMode, setModalMode] = useState<"demo" | "consultation" | null>(null);
@@ -50,14 +51,14 @@ export default function Hero() {
 
         </div>
         <div className="flex-1 flex items-end pt-6 md:pt-4 lg:pt-0 justify-end relative">
-          <video
-            src="/videocar.mp4"
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="w-full md:absolute max-w-[1080px] object-contain"
-          />
+         <video
+              src="/videocar.mp4"
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="w-full md:absolute max-w-[1080px] object-contain"
+            />
           <div className="absolute bottom-0 md:left-[-60px] lg:left-[120px] lg:right-0 ">
             <Image src={border} alt="border" />
           </div>
