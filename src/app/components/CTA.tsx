@@ -70,11 +70,11 @@ export default function CTA() {
                         </div>
                     </div>
 
-                    <div className="flex flex-col gap-[12px] md:ml-auto lg:ml-auto w-full lg:max-w-[292px] sm:min-w-[300px]">
+                    <div className="flex flex-col gap-[12px]  md:ml-auto lg:ml-auto w-full lg:max-w-[292px] sm:min-w-[300px]">
                         {features.map((feature, index) => (
                             <div
                                 key={index}
-                                className={`bg-white rounded-[12px] text-left px-[12px] py-[8px] flex items-center justify-center gap-4 ${feature.offset}`}
+                                className={`bg-white md:px-[24px] rounded-[12px] text-left px-[12px] py-[8px] flex items-center justify-center gap-4 ${feature.offset}`}
                             >
                                 <div className="mt-1 shrink-0">
                                     {feature.icon}

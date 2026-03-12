@@ -1,7 +1,7 @@
 "use client";
 import { useLanguage } from "../context/LanguageContext";
 import Image from "next/image";
-import problemsection from "../../../public/problemspng.png";
+import problemsection from "../../../public/newproblemsection.png";
 export default function Problems() {
     const { t } = useLanguage();
 
