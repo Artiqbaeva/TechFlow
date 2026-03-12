@@ -35,14 +35,14 @@ export default function Hero() {
           <div className="mt-[20px] md:mt-[50px] items-center flex md:flex-row flex-col gap-[10px] sm:flex-col ">
             <button
               onClick={() => setModalMode("demo")}
-              className="bg-[#1463E1] cursor-pointer text-center text-white px-[28px] py-[13px] rounded-[32px] font-medium leading-[20px]"
+              className="bg-[#1463E1] w-full md:w-[226px] text-nowrap cursor-pointer text-center text-white px-[28px] py-[13px] rounded-[32px] font-medium leading-[20px]"
             >
               {t("Hero", "button1")}
             </button>
 
             <button
               onClick={() => setModalMode("consultation")}
-              className="bg-white cursor-pointer text-[#030712] text-center px-[28px] py-[13px] rounded-[32px] font-medium leadingg-[20px]"
+              className="bg-white w-full md:w-[202px] text-nowrap cursor-pointer text-[#030712] text-center px-[28px] py-[13px] rounded-[32px] font-medium leadingg-[20px]"
             >
               {t("Hero", "button2")}
             </button>
