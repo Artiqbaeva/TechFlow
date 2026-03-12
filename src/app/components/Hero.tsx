@@ -10,7 +10,7 @@ export default function Hero() {
   return (
     <section className="w-full sm:min-h-[600px] md:h-screen lg:h-screen bg-gradient-to-r from-[#F9FAFB] to-[#F5F4F7]">
       <div className="mx-auto relative h-full md:pl-[60px] md:pt-[14px] lg:pl-[215px] lg:pt-[50px] flex flex-col">
-        <div className="relative  sm:text-wrap  z-10  md:max-w-[1320px] lg:max-w-[620px] max-w-[335px] ">
+        <div className="relative  sm:text-wrap  z-10  md:max-w-[1320px] lg:max-w-[620px] max-w-[335px] mx-auto md:mx-0 ">
           <h1 className="text-[24px] md:text-[20px] leading-[30px] md:leading:[18px] lg:leading-[46px] lg:text-[32px] mt-[110px] md:mt-[20px] lg:mt-[70px] text-center md:text-left lg:text-left font-semibold text-[#030712]">
             {isRu ? (
               <>
