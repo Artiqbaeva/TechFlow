@@ -76,6 +76,17 @@
         "scalability": "Масштабланиш",
         "scalability_desc": "Сервисингиз бизнесингиз билан бирга осон кенгаяди."
     },
+    "Modal": {
+        "title": "Демо сўраш",
+        "consultation_title": "Консультация олиш",
+        "name": "Исм",
+        "name_placeholder": "Исм",
+        "phone": "Телефон",
+        "phone_placeholder": "+998",
+        "company": "Компания",
+        "company_placeholder": "Компания номи",
+        "submit": "Хабар юбориш"
+    },
     "Footer": {
         "title": "TechFlow",
         "description": "Автосервис ва эҳтиёт қисмларни бошқариш учун замонавий платформа",

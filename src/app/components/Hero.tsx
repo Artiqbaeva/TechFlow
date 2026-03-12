@@ -1,10 +1,13 @@
 "use client";
 import Link from "next/link";
 import { useLanguage } from "../context/LanguageContext";
+import { useState } from "react";
 import Image from "next/image";
 import border from "../../../public/border.svg";
+import DemoModal from "./DemoModal";
 export default function Hero() {
   const { t, locale } = useLanguage();
+  const [modalMode, setModalMode] = useState<"demo" | "consultation" | null>(null);
   const isRu = locale === "ru";
 
   return (
@@ -27,26 +30,26 @@ export default function Hero() {
 
           <p className="mt-[12px] lg:mt-6 md:max-w-[418px] lg:max-w-[500px] text-[16px] md:text-[14px] lg:text-[16px] tracking-[0.02em] text-center md:text-left font-regular lg:text-left text-[#1E2939]">
             {t("Hero", "description")}
-          </p>  
+          </p>
 
           <div className="mt-[20px] md:mt-[50px] items-center flex md:flex-row flex-col gap-[10px] sm:flex-col ">
-            <Link
-              href="#"
-              className="bg-[#1463E1] text-center text-white px-[28px] py-[13px] rounded-[32px] font-medium leading-[20px]"
+            <button
+              onClick={() => setModalMode("demo")}
+              className="bg-[#1463E1] cursor-pointer text-center text-white px-[28px] py-[13px] rounded-[32px] font-medium leading-[20px]"
             >
               {t("Hero", "button1")}
-            </Link>
+            </button>
 
-            <Link
-              href="#"
-              className="bg-white text-[#030712] text-center px-[28px] py-[13px] rounded-[32px] font-medium leadingg-[20px]"
+            <button
+              onClick={() => setModalMode("consultation")}
+              className="bg-white cursor-pointer text-[#030712] text-center px-[28px] py-[13px] rounded-[32px] font-medium leadingg-[20px]"
             >
               {t("Hero", "button2")}
-            </Link>
+            </button>
           </div>
 
         </div>
-         <div className="flex-1 flex items-end pt-6 md:pt-4 lg:pt-0 justify-end relative">
+        <div className="flex-1 flex items-end pt-6 md:pt-4 lg:pt-0 justify-end relative">
           <video
             src="/videocar.mp4"
             autoPlay
@@ -60,7 +63,7 @@ export default function Hero() {
           </div>
         </div>
       </div>
-        
+      <DemoModal isOpen={!!modalMode} mode={modalMode || "demo"} onClose={() => setModalMode(null)} />
     </section>
   );
 }

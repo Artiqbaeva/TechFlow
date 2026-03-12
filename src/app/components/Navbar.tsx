@@ -5,8 +5,10 @@ import { useLanguage, LOCALE_OPTIONS, Locale } from "../context/LanguageContext"
 import Image from "next/image";
 import logo from "../../../public/logo.svg";
 import globe from "../../../public/globus.svg";
+import DemoModal from "./DemoModal";
 export default function Navbar() {
     const [mobileOpen, setMobileOpen] = useState(false);
+    const [isDemoModalOpen, setIsDemoModalOpen] = useState(false);
     const { locale, setLocale, t } = useLanguage();
 
     const navItems = [
@@ -67,24 +69,24 @@ export default function Navbar() {
                                 />
                             </svg>
                         </div>
-                        <Link
-                            href="#contact"
-                            className="text-sm font-medium text-white bg-[#1463E1] hover:bg-blue-700 px-6 py-2.5 rounded-full transition-colors"
+                        <button
+                            onClick={() => setIsDemoModalOpen(true)}
+                            className="text-sm font-medium text-white bg-[#1463E1] cursor-pointer hover:bg-blue-700 px-6 py-2.5 rounded-full transition-colors"
                         >
                             {t("Navbar", "demo")}
-                        </Link>
+                        </button>
                     </div>
 
                     <div className="flex lg:hidden items-center gap-3 sm:gap-4 ">
-                        <Link
-                            href="#contact"
-                            className="hidden sm:inline-flex text-[14px] font-medium text-white bg-[#1463E1] px-[28px] py-[13px] rounded-full transition-colors"
+                        <button
+                            onClick={() => setIsDemoModalOpen(true)}
+                            className="hidden sm:inline-flex text-[14px] cursor-pointer font-medium text-white bg-[#1463E1] px-[28px] py-[13px] rounded-full transition-colors"
                         >
                             {t("Navbar", "demo")}
-                        </Link>
+                        </button>
 
                         <button
-                            className="p-2 rounded-md text-gray-800 "
+                            className="p-2 rounded-md text-gray-800 cursor-pointer"
                             onClick={() => setMobileOpen(!mobileOpen)}
                         >
                             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -123,8 +125,8 @@ export default function Navbar() {
                                             setMobileOpen(false);
                                         }}
                                         className={`flex-1 mx-1 p-[13px] rounded-md text-[14px] font-medium transition ${locale === opt.code
-                                                ? "bg-[#1463E1] text-white"
-                                                : "bg-transparent text-[#0F172A] hover:bg-gray-200"
+                                            ? "bg-[#1463E1] text-white"
+                                            : "bg-transparent text-[#0F172A] hover:bg-gray-200"
                                             }`}
                                     >
                                         {opt.shortLabel}
@@ -134,16 +136,19 @@ export default function Navbar() {
                         </div>
 
                         <div className="flex justify-center py-[24px] items-center">
-                            <Link
-                                href="#contact"
+                            <button
+                                onClick={() => {
+                                    setIsDemoModalOpen(true);
+                                    setMobileOpen(false);
+                                }}
                                 className="text-sm font-medium text-white flex items-center justify-center bg-[#1463E1] hover:bg-blue-700 w-[205px] h-[42px] rounded-full transition-colors"
-                                onClick={() => setMobileOpen(false)}
                             >
                                 {t("Navbar", "demo")}
-                            </Link>
+                            </button>
                         </div>
                     </div>
                 )}
+                <DemoModal isOpen={isDemoModalOpen} onClose={() => setIsDemoModalOpen(false)} />
             </div>
         </nav>
     );

@@ -1,12 +1,15 @@
 "use client";
 import Link from "next/link";
 import { useLanguage } from "../context/LanguageContext";
+import { useState } from "react";
 import Image from "next/image";
 import samaradorlik from "../../../public/samaradorlik.svg";
 import shieldCheck from "../../../public/Shield Check.svg";
 import mastablanish from "../../../public/mastablanish.svg";
+import DemoModal from "./DemoModal";
 export default function CTA() {
     const { t } = useLanguage();
+    const [modalMode, setModalMode] = useState<"demo" | "consultation" | null>(null);
 
     const features = [
         {
@@ -52,18 +55,18 @@ export default function CTA() {
                         </p>
 
                         <div className="mt-16 flex md:flex-row flex-col gap-5 sm:flex-col ">
-                            <Link
-                                href="#"
-                                className="inline-flex items-center justify-center px-[28px] py-[13px] rounded-[32px] text-[16px] text-nowrap font-medium text-white bg-[#1C68E1]"
+                            <button
+                                onClick={() => setModalMode("demo")}
+                                className="inline-flex cursor-pointer items-center justify-center px-[28px] py-[13px] rounded-[32px] text-[16px] text-nowrap leading-[20px] font-medium text-white bg-[#1463E1]"
                             >
                                 {t("CTA", "button1")}
-                            </Link>
-                            <Link
-                                href="#"
-                                className="inline-flex items-center justify-center px-[28px] py-[13px] rounded-[32px] text-[15px] text-nowrap font-medium text-[#1E2939] bg-white "
+                            </button>
+                            <button
+                                onClick={() => setModalMode("consultation")}
+                                className="inline-flex cursor-pointer items-center justify-center px-[28px] py-[13px] rounded-[32px] text-[16px] text-nowrap leading-[20px] font-medium text-[#1E2939] bg-white "
                             >
                                 {t("CTA", "button2")}
-                            </Link>
+                            </button>
                         </div>
                     </div>
 
@@ -91,6 +94,7 @@ export default function CTA() {
 
 
             </div>
+            <DemoModal isOpen={!!modalMode} mode={modalMode || "demo"} onClose={() => setModalMode(null)} />
         </section>
     );
 }

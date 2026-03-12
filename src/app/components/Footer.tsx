@@ -43,8 +43,8 @@ export default function Footer() {
 
 
                 <div className="bg-[#F9FAFB] rounded-[16px] flex-1 flex flex-col justify-between">
-    
-    <div className="p-[30px] flex flex-col mt-[20px] md:mt-0 md:flex-row md:gap-20 gap-6 flex-wrap md:flex-nowrap">
+
+                    <div className="p-[30px] flex flex-col mt-[20px] md:mt-0 md:flex-row md:gap-20 gap-6 flex-wrap md:flex-nowrap">
 
                         <div>
                             <h3 className="text-[#030712] font-medium mb-[32px] leading-[22px] text-[16px] ">{tNested("Footer", "links", "product")}</h3>
@@ -67,11 +67,11 @@ export default function Footer() {
                             <h3 className="text-[#030712] font-medium mb-[32px] leading-[22px] text-[16px] ">{tNested("Footer", "links", "contact")}</h3>
                             <ul className="space-y-5">
                                 <li className="flex items-center gap-3">
-                                    <Image src={Phone} alt="Phone" width={20} height={20} />    
+                                    <Image src={Phone} alt="Phone" width={20} height={20} />
                                     <a href="tel:+998712000000" className="text-[14px] font-regular leading-[16px] tracking-[0.02em] text-[#364153] ">+998 (71) 200-00-00</a>
                                 </li>
                                 <li className="flex items-center gap-3">
-                                    <Image src={letter} alt="Letter" width={20} height={20} />         
+                                    <Image src={letter} alt="Letter" width={20} height={20} />
                                     <a href="mailto:info@techflow.uz" className="text-[14px] font-regular leading-[16px] tracking-[0.02em] text-[#364153] ">info@techflow.uz</a>
                                 </li>
                                 <li className="flex items-start gap-3">

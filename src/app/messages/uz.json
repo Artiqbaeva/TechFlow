@@ -75,6 +75,17 @@
         "scalability": "Mashtablash",
         "scalability_desc": "Servisingiz biznesingiz bilan birga oson kengayadi."
     },
+    "Modal": {
+        "title": "Demo so'rash",
+        "consultation_title": "Konsultatsiya olish",
+        "name": "Ism",
+        "name_placeholder": "Ism",
+        "phone": "Telefon",
+        "phone_placeholder": "+998",
+        "company": "Kompaniya",
+        "company_placeholder": "Kompaniya nomi",
+        "submit": "Xabar yuborish"
+    },
     "Footer": {
         "title": "TechFlow",
         "description": "Avtoservis va ehtiyot qismlarni boshqarish uchun aqlli platforma",

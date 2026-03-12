@@ -75,6 +75,17 @@
         "scalability": "Масштабируемость",
         "scalability_desc": "Сервисы растут вместе с вашим бизнесом."
     },
+    "Modal": {
+        "title": "Запросить демо",
+        "consultation_title": "Получить консультацию",
+        "name": "Имя",
+        "name_placeholder": "Имя",
+        "phone": "Телефон",
+        "phone_placeholder": "+998",
+        "company": "Компания",
+        "company_placeholder": "Название компании",
+        "submit": "Отправить сообщение"
+    },
     "Footer": {
         "title": "TechFlow",
         "description": "Умная платформа для управления автосервисом и запчастями",
