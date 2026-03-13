@@ -58,7 +58,7 @@ export default function Hero() {
               playsInline
               className="w-full md:absolute max-w-[1080px] object-contain"
             />
-          <div className="absolute bottom-0 md:left-[-60px] lg:left-[122px] lg:right-0 ">
+          <div className="absolute bottom-0 md:left-[-60px] lg:left-[62px] lg:right-0 ">
             <Image src={border} alt="border" />
           </div>
         </div>
