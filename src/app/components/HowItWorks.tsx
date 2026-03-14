@@ -59,9 +59,9 @@ export default function HowItWorks() {
     ];
 
     return (
-        <section id="workflow" className="py-[64px] md:py-[50px] lg:py-[128px] bg-[#030712]">
-            <div className="max-w-[380px] md:max-w-[648px] lg:max-w-[1090px] mx-auto">
-                <div className="text-center max-w-2xl mx-auto mb-8">
+        <section id="workflow" className="mt-[64px] py-[64px] md:py-[50px] lg:py-[128px] bg-[#030712]">
+            <div className="container">
+                <div className="text-center mx-auto mb-8">
                     <h2 className="text-[32px] sm:text-[36px] font-semibold tracking-tight text-[#F9FAFB]">
                         {t("Workflow", "title")}
                     </h2>
@@ -75,7 +75,7 @@ export default function HowItWorks() {
                         <div key={step.id} className="relative flex-1 flex flex-col items-center">
 
                             <div className="absolute top-5 left-0 w-full h-32 overflow-hidden pointer-events-none">
-                                <svg fill="none" className={`w-full md:h-[45%] lg:h-[85%] ${step.strokeColor}`} strokeWidth="1.3" strokeDasharray="6 6">
+                                <svg fill="none" className={`w-full md:h-[45%] lg:h-[95%] ${step.strokeColor}`} strokeWidth="1.3" strokeDasharray="6 6">
                                     <defs>
                                         <linearGradient id={`fadeGrad-${step.id}`} x1="0" y1="0" x2="0" y2="1">
                                             <stop offset="0%" stopColor="currentColor" stopOpacity="0.9" />

@@ -40,7 +40,7 @@ export default function CTA() {
 
     return (
         <section id="contact" className="mt-[60px] lg:my-[60px] md:my-[50px] lg:mt-[64px] lg:mb-[80px] bg-white">
-            <div className="max-w-[380px] px-[6px] md:px-0 md:max-w-[648px] lg:max-w-[1090px] mx-auto ">
+            <div className="container">
                 <div className="bg-[#F9FAFB] mb-4 text-center md:text-left lg:text-left rounded-[16px] md:rounded-[24px] lg:rounded-[16px] p-6 md:p-8 lg:p-8 grid md:grid-cols-2 lg:grid-cols-2 gap-8 md:gap-4 lg:gap-2 items-center">
                     <div>
                         <h2 className="text-[20px] md:text-[20px] max-w-[480px] tracking-[0.02em] sm:text-3xl lg:text-[32px] font-semibold text-[#030712] leading-[1.3] lg:leading-[42px]">
@@ -76,7 +76,7 @@ export default function CTA() {
                         </div>
                     </div>
 
-                    <div className="flex flex-col gap-[12px] md:ml-auto lg:ml-auto w-full md:max-w-[260px] lg:max-w-[292px] sm:min-w-[260px]">
+                    <div className="flex flex-col gap-[12px] md:ml-auto lg:ml-auto w-full md:w-[243px] lg:w-[282px] w-[287px]">
                         {features.map((feature, index) => (
                             <div
                                 key={index}
