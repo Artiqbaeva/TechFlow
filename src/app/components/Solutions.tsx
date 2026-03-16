@@ -160,7 +160,7 @@ export default function Solutions() {
                     {t("Solutions", "solution5_desc")}
                 </p>
             </div>
-            <div className="mt-auto absolute bottom-2 left-0 p-[32px] right-0 flex justify-center items-end pointer-events-none -mx-4 z-10">
+            <div className="mt-auto absolute bottom-2 left-0 p-[62px] right-0 flex justify-center items-end pointer-events-none -mx-4 z-10">
                 <Image
                     src={solution7}
                     alt={t("Solutions", "solution5")}
