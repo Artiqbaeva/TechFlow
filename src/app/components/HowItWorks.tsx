@@ -74,15 +74,15 @@ export default function HowItWorks() {
                     {steps.map((step) => (
                         <div key={step.id} className="relative flex-1 flex flex-col items-center">
 
-                            <div className="absolute top-5 left-0 w-full h-32 overflow-hidden pointer-events-none">
-                                <svg fill="none" className={`w-full md:h-[45%] lg:h-[95%] ${step.strokeColor}`} strokeWidth="1.3" strokeDasharray="6 6">
+                            <div className="absolute top-5 left-0 w-full h-34 overflow-hidden pointer-events-none">
+                                <svg fill="none" className={`w-full md:h-[50%] lg:h-[75%] ${step.strokeColor}`} strokeWidth="1.3" strokeDasharray="6 6">
                                     <defs>
                                         <linearGradient id={`fadeGrad-${step.id}`} x1="0" y1="0" x2="0" y2="1">
                                             <stop offset="0%" stopColor="currentColor" stopOpacity="0.9" />
                                             <stop offset="100%" stopColor="currentColor" stopOpacity="0" />
                                         </linearGradient>
                                     </defs>
-                                    <ellipse cx="50%" cy="100%" rx="50%" ry="100%" stroke={`url(#fadeGrad-${step.id})`} />
+                                    <ellipse cx="50%" cy="101%" rx="49%" ry="100%" stroke={`url(#fadeGrad-${step.id})`} />
                                 </svg>
                             </div>
 
