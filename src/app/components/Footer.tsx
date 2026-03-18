@@ -14,8 +14,8 @@ export default function Footer() {
     const { t, tNested } = useLanguage();
 
     return (
-        <footer className="bg-white container py-[32px] mx-auto mb-[32px]">
-            <div className="flex flex-col lg:flex-row gap-6">
+        <footer className="bg-white max-w-[1440px] px-[20px] md:px-[60px] lg:px-[175px] py-[32px] mx-auto">
+            <div className="flex flex-col lg:flex-row gap-6 lg:px-[135px] mb-[32px]">
 
                 <div className="bg-[#1C68E1] rounded-[16px] p-[32px] md:p-[40px] lg:p-[32px] text-white flex flex-col md:flex-row lg:flex-col justify-between md:items-end lg:items-start w-full lg:w-[350px] min-h-[300px] md:min-h-[180px] lg:min-h-[300px]">
                     <div className="md:max-w-[340px] lg:max-w-none">

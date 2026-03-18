@@ -6,8 +6,8 @@ export default function Problems() {
     const { t } = useLanguage();
 
     return (
-        <section id="problems" className="container pt-16 md:pt-12 lg:pt-[64px] bg-white overflow-hidden">
-            <div className="mt-[64px]">
+        <section id="problems" className="max-w-[1440px] px-[20px] md:px-[60px] lg:px-[175px] mx-auto pt-16 md:pt-12 lg:pt-[64px] bg-white overflow-hidden w-full">
+            <div className="md:mt-[64px] mt-[60px]">
                 <div className="text-center mb-8 md:mb-8 lg:mb-12">
                     <h2 className="text-[32px] font-semibold text-[#030712]">
                         {t("Problems", "title")}
@@ -21,11 +21,11 @@ export default function Problems() {
                     <Image width={1440} height={300} className="w-full h-auto object-contain" src={problemsection} alt="Illustration showing common business problems: repair order delays, inventory loss, and human errors" />
                 </div>
 
-                <div className="grid md:grid-cols-3 gap-2 lg:gap-6 lg:text-center md:text-left sm:text-left">
+                <div className="grid md:grid-cols-3 gap-2 md:gap-8 lg:gap-6 lg:text-center md:text-left sm:text-left">
                     <div className="space-y-[8px] mx-auto w-full">
                         <Image width={220} height={140} className="block md:hidden mx-auto" src="/problemsectionimage1.png" alt="Lost repair orders icon" />
                         <h3 className="text-[20px] text-left font-semibold text-[#030712]">{t("Problems", "problem1")}</h3>
-                        <p className=" md:text-[14px] text-[14px] text-left text-[#364153] leading-[22px]">
+                        <p className="md:text-[14px] text-[14px] text-left text-[#364153] leading-[16px] lg:leading-[22px]">
                             {t("Problems", "problem1_desc")}
                         </p>
                     </div>
@@ -39,7 +39,7 @@ export default function Problems() {
                     <div className="space-y-[8px] mx-auto w-full">
                         <Image width={220} height={140} className="block md:hidden mx-auto" src="/problem3.svg" alt="Human error and slowdowns icon" />
                         <h3 className="text-[20px] text-left font-semibold text-[#030712]">{t("Problems", "problem3")}</h3>
-                        <p className="md:text-[14px] text-[14px] text-left text-[#364153] leading-[22px]">
+                        <p className="md:text-[14px] text-[14px] text-left text-[#364153] leading-[16px] lg:leading-[22px]">
                             {t("Problems", "problem3_desc")}
                         </p>
                     </div>

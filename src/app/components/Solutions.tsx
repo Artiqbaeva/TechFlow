@@ -154,13 +154,13 @@ export default function Solutions() {
             className="bg-[#F9FAFB] rounded-[16px] overflow-hidden p-[32px] sm:p-[32px] flex flex-col h-full relative group min-h-[530px]"
             style={{ backgroundImage: 'url(/bgofsolutioncard.svg)', backgroundSize: 'contain', backgroundPosition: 'center' }}
         >
-            <div className="relative z-20 mb-8">
+            <div className="relative z-20 mb-8 ">
                 <h3 className="text-[20px] font-semibold text-[#030712] mb-[8px]">{t("Solutions", "solution5")}</h3>
                 <p className="text-[#364153] font-regular text-[16px] leading-[22px] tracking-[0.02em]">
                     {t("Solutions", "solution5_desc")}
                 </p>
             </div>
-            <div className="mt-auto absolute bottom-2 left-0 p-[62px] right-0 flex justify-center items-end pointer-events-none -mx-4 z-10">
+            <div className="mt-auto absolute bottom-2 left-0 p-[102px] md:p-[30px] lg:p-[60px] right-0 flex justify-center items-end pointer-events-none -mx-4 z-10">
                 <Image
                     src={solution7}
                     alt={t("Solutions", "solution5")}
@@ -172,8 +172,8 @@ export default function Solutions() {
     );
 
     return (
-        <section id="solutions" className="container py-[60px] md:py-[50px] lg:py-[128px] bg-white">
-            <div className="mt-[128px]">
+        <section id="solutions" className="max-w-[1440px] px-[20px] md:px-[60px] lg:px-[175px] mx-auto py-[60px] md:py-[50px] lg:py-[128px] bg-white w-full">
+            <div className="md:mt-[128px] mt-[60px]">
                 <div className="text-center mx-auto mb-[36px]">
                     <h2 className="text-[32px] font-semibold text-[#030712] tracking-[0.02em] leading-[22px">
                         {t("Solutions", "title")}

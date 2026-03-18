@@ -59,8 +59,8 @@ export default function HowItWorks() {
     ];
 
     return (
-        <section id="workflow" className="mt-[64px] py-[64px] md:py-[50px] lg:py-[128px] bg-[#030712]">
-            <div className="container">
+        <section id="workflow" className="md:mt-[64px] mt-[60px] py-[64px] md:py-[50px] lg:py-[128px] bg-[#030712] w-full">
+            <div className="max-w-[1440px] px-[20px] md:px-[60px] lg:px-[175px] mx-auto">
                 <div className="text-center mx-auto mb-8">
                     <h2 className="text-[32px] sm:text-[36px] font-semibold tracking-tight text-[#F9FAFB]">
                         {t("Workflow", "title")}

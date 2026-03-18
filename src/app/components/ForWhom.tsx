@@ -28,9 +28,9 @@ export default function ForWhom() {
     ];
 
     return (
-        <section id="for-whom" className="py-[64px] md:py-[50px] lg:pb-[128px] bg-[radial-gradient(circle_at_bottom,_#1463E1_-90%,_#030712_30%)] bg-[#030712] ">
-            <div className="container">
-                <div className="text-center mx-auto mb-[36px]">
+        <section id="for-whom" className="md:py-[64px] py-[32px] md:py-[50px] lg:pb-[128px] bg-[radial-gradient(circle_at_bottom,_#1463E1_-90%,_#030712_30%)] bg-[#030712] w-full">
+            <div className="max-w-[1440px] px-[20px] md:px-[60px] lg:px-[175px] mx-auto">
+                <div className="text-center mx-auto mb-[36px] ">
                     <h2 className="text-[32px] sm:text-[32px] font-semibold text-[#F9FAFB] tracking-[0.02em]">
                         {t("ForWhom", "title")}
                     </h2>
